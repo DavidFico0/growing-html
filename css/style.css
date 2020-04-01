@@ -1,0 +1,136 @@
+*{
+    font-family: 'Gotham', 'Arial Narrow', Arial, sans-serif;
+}
+
+p, 
+a {
+    font-family: 'Gotham Book', 'Arial Narrow', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2{
+    font-family: 'Gotham Ultra';
+}
+
+h3{
+    font-family: 'Gotham Medium';
+}
+
+.font-nav{
+    font-family: 'Gotham Black';
+    font-size: 18px;
+}
+
+.bg-tranparent-nav{
+    transition: 250ms ease;
+    background: transparent !important;
+}
+
+.bg-tranparent-nav #link-logo {
+    width: 40px;
+    height: 50px;
+    background-image: url('../image/logo-gray.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.bg-tranparent-nav.scrolled{
+    background: #383737 !important;
+    color: white;
+}
+
+.bg-tranparent-nav.scrolled ul li a{
+    transition: 250ms ease;
+    color: white;
+}
+
+.bg-tranparent-nav.scrolled #link-logo {
+    width: 40px;
+    height: 50px;
+    transition: 250ms ease;
+    background-image: url('../image/logo-primary.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.btn-ligth{
+    border-radius: 3;
+    width: 351px;
+    height: 52;
+    background-color: #F1EDED;
+    color: #9F6F78;
+}
+
+.btn-gray{
+    border-radius: 3;
+    width: 351px;
+    height: 52;
+    background-color: #383737;
+    color: #FFFFFF;
+}
+
+/* Seção Home */
+
+#home{
+    background-image: url('../image/background-transp1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.logo-horizontal{
+    width: 200px;
+    padding-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.frase-meio{
+    width: 270px;
+    padding-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botoes-home {
+    width: 360px;
+    padding-top: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.botoes-home button{
+    margin: 5px;
+}
+
+/* Seção sobre */
+
+#sobre{
+    height: 100vh;
+}
+
+.logo-center {
+    width: 70px;
+    padding-top: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-center2 {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+/* Cadastro */
+
+#cadastro{
+    background-image: url('../image/background-transp1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
