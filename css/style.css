@@ -79,17 +79,19 @@ main{
     width: 50px;
     height: 100vh;
     margin-left: 0;
+    
 }
 
 .menu-lateral{
     width: 169px;
     height: 100vh;
+    /* transition: 0.5s;
+    left: 50px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden; */
 }
 
-.nav-header{
-    background-color: #FFFFFF;
-    height: 54px;
-}
 
 .shadow-1{
     padding: 10px;
@@ -112,25 +114,132 @@ main{
 }
 
 .nav-icon{
-    width: 45px;
     padding-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .nav-icon ul {
     list-style: none;
+    margin-left: auto;
+    padding-left: 0;
+    margin-right: auto;
+    padding-right: 0;
 }
+
 
 .nav-icon ul li {
     padding: 10px;
 }
 
 .nav-icon ul li a img {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    
 }
 
+.nav-text{
+    width: 100%;
+    padding-top:73px;
+}
+
+.nav-text ul{
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-text ul li{
+    padding: 10px;
+}
+
+.nav-text ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+
+.nav-text ul li a:hover{
+    text-decoration: none;
+    color: #383737;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+
+}
+
+/* David - cabeçalho */
+
+.nav-header{
+    background-color: #FFFFFF;
+    height: 54px;
+}
+
+.search-header{
+    width: 500px;
+    border: solid 2px #9F6F78;
+    border-radius: 7px;
+}
+
+.search-header button {
+    border: none;
+    background-color: transparent;
+    margin-right: 3px;
+    padding-right: 3px;
+    
+}
+
+.search-header input{
+    border: none;
+    width: 430px;
+    margin-left: 3px;
+}
+
+#icon-search{
+    width: 28px;
+    height: 26px;
+}
+
+.nav-header-menu{
+    width: 100%;
+}
+
+.nav-header-menu ul{
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.nav-header-menu ul li {
+    padding-left: 30px;
+    display: inline;
+}
+
+.nav-header-menu ul li a img{
+    width: 22px;
+    height: 22px;
+}
+
+
+.usuario-header{
+    font-weight: bold;
+    color: #9F6F78;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.usuario-header-div{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-color: #9F6F78;
+    background-image: url('../image/icons/do-utilizador-white.png');
+    background-repeat: no-repeat;
+    background-size: 21px;
+    background-position: center;
+}
 
 /* Seção Home */
 

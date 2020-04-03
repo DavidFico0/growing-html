@@ -27,7 +27,10 @@
     <li>.shadow-1 - Sombreamento para parte inferior de elementos</li>
     <li>.logo-g - Logo 'G'<li>
     <li>.logo-growing - Logo 'growing'</li>
-    <li></li>
+    <li>.search-header - Barra de pesquisa</li>
+    <li>.nav-header-menu - Menu central com agenda e chat</li>
+    <li>.usuario-header - Usuário estilo</li>
+    <li>.usuario-header-div - Avatar do usuário com formato de circulo</li>
 </ul>
 
 <h2>Classes para Imagem do perfil</h2>
