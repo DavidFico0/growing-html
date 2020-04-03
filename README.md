@@ -24,7 +24,7 @@
     <li>.barra-lateral - Menu lateral cinza</li>
     <li>.menu-lateral - Menu lateral com a cor primária</li>
     <li>.nav-header - Cabeçalho do corpo</li>
-    <li>.shadow-1 - Bombreamento para parte inferior de elementos</li>
+    <li>.shadow-1 - Sombreamento para parte inferior de elementos</li>
     <li>.logo-g - Logo 'G'<li>
     <li>.logo-growing - Logo 'growing'</li>
     <li></li>
