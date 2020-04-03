@@ -86,6 +86,16 @@ main{
     height: 100vh;
 }
 
+.nav-header{
+    background-color: #FFFFFF;
+    height: 54px;
+}
+
+.shadow-1{
+    padding: 10px;
+    box-shadow: 3px 8px 4px #888888;
+}
+
 .logo-g{
     width: 45px;
     height: 45px;
@@ -99,6 +109,26 @@ main{
     padding-top: 67px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.nav-icon{
+    width: 45px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-icon ul {
+    list-style: none;
+}
+
+.nav-icon ul li {
+    padding: 10px;
+}
+
+.nav-icon ul li a img {
+    width: 40px;
+    height: 40px;
 }
 
 

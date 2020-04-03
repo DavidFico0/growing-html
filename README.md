@@ -19,4 +19,15 @@
     <li>.text-color-gray { color: #383737 }</li>
 </ul>
 
+<h2>Classes menu lateral e superior</h2>
+<ul>
+    <li>.barra-lateral - Menu lateral cinza</li>
+    <li>.menu-lateral - Menu lateral com a cor primária</li>
+    <li>.nav-header - Cabeçalho do corpo</li>
+    <li>.shadow-1 - Bombreamento para parte inferior de elementos</li>
+    <li>.logo-g - Logo 'G'<li>
+    <li>.logo-growing - Logo 'growing'</li>
+    <li></li>
+</ul>
+
 <h2>Classes para Imagem do perfil</h2>
