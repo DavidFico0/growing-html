@@ -13,95 +13,79 @@
     <link rel="stylesheet" href="css/palette.css">
 </head>
 <body>
-    <main class="container-fluid">
-        
+    <div class="menu-icons bg-gray-color">
+        <div class="logo-g">
+            <a href="#!" onclick="toggleSidebar()">
+                <img src="image/logo-primary.png" alt="" style="height: 40px;" onclick="closeNav()">
+            </a>                        
+        </div>
+        <div class="nav-icon">
+            <ul>
+                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/calendario-white.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="bg-primary-color" id="side-bar">
+        <div class="logo-growing">
+            <a href="#!">
+                <img src="image/growing-logo-white.png" alt="" style="width: 80px;">
+
+            </a>
+            
+        </div>
+        <div class="nav-text">
+            <ul>
+                <li><a href="#!">Portfóleo</a></li>
+                <li><a href="#!">Feed geral</a></li>
+                <li><a href="#!">Promoções</a></li>
+                <li><a href="#!">Solicitações</a></li>
+                <li><a href="#!">Agenda</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="bg-ligth-color" id="main">
         <div class="row">
-            <div class="col-md-2">
+            <div class="col-md-12 nav-header shadow-1">
                 <div class="row">
-                    <div class="barra-lateral bg-gray-color col-md-3">
-                        <div class="logo-g">
-                            <a href="#!">
-                                <img src="image/logo-primary.png" alt="" style="height: 40px;" onclick="closeNav()">
-                            </a>                        
-                        </div>
-                        <div class="nav-icon">
+                    <div class="col-md-6">
+                        <form action="#!" method="post">
+                            <div class="search-header">
+                                <input type="search" name="" id="">
+                                <button type="submit"><img src="image/icons/procurar-primary.png" alt="" id='icon-search'></button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="nav-header-menu">
                             <ul>
-                                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
-                                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
-                                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
-                                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
-                                <li><a href="#!"><img src="image/icons/calendario-white.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/calendario-gray.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/bate-papo-gray.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/sino-primary.png" alt=""></a></li>
+                                
                             </ul>
                         </div>
-                    </div>
-                    <div class="menu-lateral bg-primary-color col-md-9" id="mySidebar">
-                        <div class="logo-growing">
-                            <img src="image/growing-logo-white.png" alt="" style="width: 80px;">
-                            
-                        </div>
-                        <div class="nav-text">
-                            <ul>
-                                <li><a href="#!">Portfóleo</a></li>
-                                <li><a href="#!">Feed geral</a></li>
-                                <li><a href="#!">Promoções</a></li>
-                                <li><a href="#!">Solicitações</a></li>
-                                <li><a href="#!">Agenda</a></li>
-                            </ul>
-
-                        </div>
-                                
-                        
                         
                     </div>
-                </div>
-            </div>
-            <div class="bg-ligth-color col-md-10">
-                <div class="row">
-                    <div class="col-md-12 nav-header shadow-1">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <form action="#!" method="post">
-                                    <div class="search-header">
-                                        <input type="search" name="" id="">
-                                        <button type="submit"><img src="image/icons/procurar-primary.png" alt="" id='icon-search'></button>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="nav-header-menu">
-                                    <ul>
-                                        <li><a href="#!"><img src="image/icons/calendario-gray.png" alt=""></a></li>
-                                        <li><a href="#!"><img src="image/icons/bate-papo-gray.png" alt=""></a></li>
-                                        <li><a href="#!"><img src="image/icons/sino-primary.png" alt=""></a></li>
-                                        
-                                    </ul>
-                                </div>
-                                
-                            </div>
-                            <div class="col-md-3">
-                                <a href="#!">
-                                    <div class="d-flex flex-row bd-highlight mb-3">
-                                        <div class="usuario-header p-2 bd-highlight">usuario@dominio.com.br</div>
-                                        <div class="usuario-header-div p-2 bd-highlight"></div>
+                    <div class="col-md-3">
+                        <a href="#!">
+                            <div class="d-flex flex-row bd-highlight mb-3">
+                                <div class="usuario-header p-2 bd-highlight">usuario@dominio.com.br</div>
+                                <div class="usuario-header-div p-2 bd-highlight"></div>
 
-                                    </div>
-                                </a>
                             </div>
-
-                        </div>
+                        </a>
                     </div>
 
                 </div>
             </div>
 
         </div>
-        
-
-       
-        <div class="">
-
-        </div>
-    </main>
+    </div>
     
     
 
@@ -114,18 +98,7 @@
      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
      <script src="js/my-scroll.js"></script>
      <script src="js/nav-color.js"></script>
+     <script src="js/side-menu.js"></script>
 
-     <script>
-         function openNav() {
-            document.getElementById("mySidebar").style.width = "169px";
-            //document.getElementById("main").style.marginLeft = "250px";
-        }
-
-        function closeNav() {
-            document.getElementById("mySidebar").style.width = "0";
-            //document.getElementById("mySidebar").style.display = "none";
-            //document.getElementById("main").style.marginLeft= "0";
-        }
-     </script>
 </body>
 </html>

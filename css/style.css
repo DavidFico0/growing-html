@@ -75,21 +75,38 @@ main{
 
 /* David - Barra Lateral */
 
-.barra-lateral{
-    width: 50px;
-    height: 100vh;
-    margin-left: 0;
-    
+.menu-icons{
+    width: 2.5%;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+    left: 0;
 }
 
-.menu-lateral{
-    width: 169px;
-    height: 100vh;
-    /* transition: 0.5s;
-    left: 50px;
+#side-bar{
     position: fixed;
-    z-index: 1;
-    overflow-x: hidden; */
+    width: 9%;
+    height: 100%;
+    left: 2.5%;
+    transition: all 500ms linear;
+}
+
+#side-bar.active{
+    left: -15%;
+}
+
+#main{
+    width: 88.5%;
+    height: 100%;
+    position: fixed;
+    left: 11.5%;
+    transition: all 501ms linear;
+}
+
+#main.active{
+    width: 97.5%;
+    left: 2.5%;
+
 }
 
 
@@ -172,6 +189,7 @@ main{
 /* David - cabeçalho */
 
 .nav-header{
+    margin-left: 14px;
     background-color: #FFFFFF;
     height: 54px;
 }

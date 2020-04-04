@@ -1,0 +1,54 @@
+<main class="container-fluid">
+        
+        <div class="row">
+            <div class="col-md-2">
+                <div class="row">
+                    <div class="barra-lateral bg-gray-color col-md-3">
+                        <div class="logo-g">
+                            <a href="#!">
+                                <img src="image/logo-primary.png" alt="" style="height: 40px;" onclick="closeNav()">
+                            </a>                        
+                        </div>
+                        <div class="nav-icon">
+                            <ul>
+                                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
+                                <li><a href="#!"><img src="image/icons/calendario-white.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="menu-lateral bg-primary-color col-md-9" id="mySidebar">
+                        <div class="logo-growing">
+                            <img src="image/growing-logo-white.png" alt="" style="width: 80px;">
+                            
+                        </div>
+                        <div class="nav-text">
+                            <ul>
+                                <li><a href="#!">Portfóleo</a></li>
+                                <li><a href="#!">Feed geral</a></li>
+                                <li><a href="#!">Promoções</a></li>
+                                <li><a href="#!">Solicitações</a></li>
+                                <li><a href="#!">Agenda</a></li>
+                            </ul>
+
+                        </div>
+                                
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="bg-ligth-color col-md-10">
+                
+            </div>
+
+        </div>
+        
+
+       
+        <div class="">
+
+        </div>
+    </main>
