@@ -118,15 +118,22 @@ main{
 }
 
 .logo-g{
-    width: 45px;
+    width: 2.5%;
     height: 45px;
     padding-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.logo-g a{
+    left: 20%;
+    position: absolute;
+}
+
 .logo-g a img{
-    width: 40px;
+    text-align: center;
+    width: 28px;
+    height: 30px;
 }
 
 .logo-growing {
@@ -363,6 +370,12 @@ main{
 }
 
 
+.avatar-hd-sm {
+    width: 20%;
+    position: fixed;
+    right: 0px;
+}
+
 .avatar-publicacoes{
     border-radius: 100%;
     width: 54px;
@@ -590,12 +603,610 @@ main{
 
 /* Navegadores menores */
 
-@media (max-width: 770px){
+@media (max-width: 1440px){
+
+
+    .header-corpo{
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+
+.logo-g{
+    width: 2.5%;
+    height: 45px;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-g a{
+    left: 15%;
+    position: absolute;
+}
+
+.logo-g a img{
+    text-align: center;
+    width: 26px;
+    height: 29px;
+}
+
+
+.nav-icon ul {
+    list-style: none;
+    margin-left: -3px;
+    padding-left: 0;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+.avatar-hd-sm {
+    width: 18%;
+    position: fixed;
+    right: 1px;
+}
+
+/* David - Feed geral  */
+
+.criar-publicacoes{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.publicacoes{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+}
+
+.criar-publicacoes hr{
+    background-color: #F8ECEC;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.criar-publicacoes p {
+    margin-bottom: 0;
+}
+
+.textarea-publicacoes{
+    width: 100%;
+    height: 54px;
+
+}
+
+#criar-publicacao{
+    background-color: #FFFFFF;
+    height: 123px;
+    width: 800px;
+    
+}
+
+.publicacao{
+    background-color: #FFFFFF;
+    height: auto;
+    width: 800px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.publicacao-row{
+    padding: 10px;
+}
+
+.publicacao span{
+    font-size: 20pt;
+}
+
+.menu-share{
+    text-align: center;
+}
+
+.menu-share img{
+    width: 25px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-status-puplic{
+    text-align: end;
+    list-style: none;
+}
+
+.menu-status-puplic li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.menu-status-puplic li a{
+    font-size: 9pt;
+    text-decoration: none;
+    color:#383737;
+}
+
+.menu-status-puplic li a img{
+    width: 18px;
+    height: 15px;
+}
+
+
+.avatar-publicacoes{
+    border-radius: 100%;
+    width: 54px;
+    height: 54px;
+    background-image: url("../image/avatares/perfil-quatro.jpg");
+    background-color: #9F6F78;
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.button-share-photo{
+    width: 136px;
+    height: 29px;
+    border-radius: 10px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    font-size: 15px;
+}
+
+.button-share-photo img{
+    width: 22px;
+    height: 22px;
+}
+
+.button-enviar-publicacao{
+    width: 136px;
+    height: 29px;
+    border-radius: 10px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    font-size: 15px;
+}
+
+.button-enviar-publicacao img{
+    width: 22px;
+    height: 22px;
+}
+
+.propagandas{
+    margin-top: 90px;
+    margin-right: 40px;
+    width: 387;
+    height: 1900px;
+    background-color: #FFFFFF;
+}
+
+.propagandas h3{
+    font-size: 15pt;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+#cabecalho-propagandas{
+    height: 60px;
+}
+
+#cabecalho-propagandas img{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.anuncio img{
+    width: 100%;
+    height: 187px;
+
+}
+
+.anuncio button{
+    width: 100%;
+    height: 41px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    display: block;
+}
+
+}
+
+@media (max-width: 1400px){
+
+    .header-corpo{
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+
+    
+.nav-icon ul {
+    list-style: none;
+    margin-left: -3px;
+    padding-left: 0;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+.logo-g{
+    width: 2.5%;
+    height: 45px;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-g a{
+    left: 15%;
+    position: absolute;
+}
+
+.logo-g a img{
+    text-align: center;
+    width: 26px;
+    height: 29px;
+}
+
+
+.avatar-hd-sm {
+    width: 20%;
+    position: fixed;
+    right: 1px;
+}
+}
+
+
+@media (max-width: 1200px){
+
+    .header-corpo{
+        width: 100%;
+        position: fixed;
+        z-index: 100;
+    }
+
+.logo-g{
+    width: 2.5%;
+    height: 45px;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-g a{
+    left: 15%;
+    position: absolute;
+}
+
+.logo-g a img{
+    text-align: center;
+    width: 26px;
+    height: 29px;
+}
+
+
+.menu-icons{
+    width: 2.8%;
+    position: fixed;
+    z-index: 10;
+    height: 100%;
+    left: 0;
+}
+
+.nav-icon ul {
+    list-style: none;
+    margin-left: -3px;
+    padding-left: 0;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+#side-bar{
+    position: fixed;
+    width: 9%;
+    height: 100%;
+    left: 2.8%;
+    transition: all 500ms linear;
+}
+
+#side-bar.active{
+    left: -18%;
+}
+
+#main{
+    width: 88.5%;
+    height: 100%;
+    position: fixed;
+    left: 11.5%;
+    overflow: auto;
+    transition: all 501ms linear;
+}
+
+#main.active{
+    width: 97.5%;
+    left: 2.5%;
 
 }
 
 
+.avatar-hd-sm {
+    width: 20%;
+    position: fixed;
+    right: 1px;
+}
+}
+
+
 /*  Dispositivos Móveis */
+
+@media (max-width: 1000px){
+    
+    .menu-icons{
+        width: 5%;
+        position: fixed;
+        z-index: 10;
+        height: 100%;
+        left: 0;
+    }
+    
+    
+    .logo-g a img{
+        width: 25px;
+        margin-left: 5px;
+        margin-right: auto;
+    }
+    
+    #side-bar{
+        position: fixed;
+        left: -50%;
+        width: 20%;
+        z-index: 9;
+        height: 100%;
+        transition: all 500ms linear;
+    }
+    
+    #side-bar.active{
+        left: 5%;
+    }
+    
+    
+    #main{
+        width: 95%;
+        left: 5%;   
+        height: 100%;
+        position: fixed;
+        transition: all 501ms linear;
+    }
+    
+    #main.active{
+        width: 95%;
+        left: 5%;  
+    
+    } 
+    
+    
+    .search-header{
+        width: 250px;
+        border: solid 2px #9F6F78;
+        border-radius: 7px;
+    }
+    
+    .search-header button {
+        border: none;
+        background-color: transparent;
+        margin-right: 3px;
+        padding-right: 3px;
+        
+    }
+    
+    .search-header input{
+        border: none;
+        width: 195px;
+        margin-left: 3px;
+    }
+    
+    #icon-search{
+        width: 28px;
+        height: 26px;
+    }
+    
+/*     
+    .nav-header-menu{
+        display: none;
+    } */
+    
+
+    
+/* David - Feed geral  */
+
+.criar-publicacoes{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.publicacoes{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.criar-publicacoes hr{
+    background-color: #F8ECEC;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.criar-publicacoes p {
+    margin-bottom: 0;
+}
+
+.textarea-publicacoes{
+    width: 100%;
+    height: 54px;
+
+}
+
+#criar-publicacao{
+    background-color: #FFFFFF;
+    height: 123px;
+    width: 800px;
+    
+}
+
+.publicacao{
+    background-color: #FFFFFF;
+    height: auto;
+    width: 800px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.publicacao-row{
+    padding: 10px;
+}
+
+.publicacao span{
+    font-size: 20pt;
+}
+
+.menu-share{
+    text-align: center;
+}
+
+.menu-share img{
+    width: 25px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-status-puplic{
+    text-align: end;
+    list-style: none;
+}
+
+.menu-status-puplic li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.menu-status-puplic li a{
+    font-size: 9pt;
+    text-decoration: none;
+    color:#383737;
+}
+
+.menu-status-puplic li a img{
+    width: 18px;
+    height: 15px;
+}
+
+
+.avatar-publicacoes{
+    border-radius: 100%;
+    width: 54px;
+    height: 54px;
+    background-image: url("../image/avatares/perfil-quatro.jpg");
+    background-color: #9F6F78;
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.button-share-photo{
+    width: 100px;
+    height: 29px;
+    border-radius: 10px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    font-size: 10px;
+}
+
+.button-share-photo img{
+    width: 20px;
+    height: 20px;
+}
+
+.button-enviar-publicacao{
+    width: 100px;
+    height: 29px;
+    border-radius: 10px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    font-size: 10px;
+}
+
+.button-enviar-publicacao img{
+    width: 20px;
+    height: 20px;
+}
+
+.propagandas{
+    margin-top: 90px;
+    margin-right: 40px;
+    width: 387;
+    height: 1900px;
+    background-color: #FFFFFF;
+}
+
+.propagandas h3{
+    font-size: 9pt;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+#cabecalho-propagandas{
+    height: 60px;
+}
+
+#cabecalho-propagandas img{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.anuncio img{
+    width: 100%;
+    height: 120px;
+
+}
+
+.anuncio button{
+    width: 100%;
+    height: 41px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    display: block;
+}
+
+
+    .usuario-header {
+        display: none;
+    }
+    
+    .search-input-sm{
+        width: 70%;
+    }
+    
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 2px;
+    }
+    
+    }
+
 
 @media (max-width: 720px){
     
@@ -609,9 +1220,23 @@ main{
 
 
 .logo-g a img{
-    width: 25px;
-    margin-left: 5px;
+    width: 35px;
+    height: 41px;
+    margin-left: auto;
     margin-right: auto;
+}
+
+.logo-growing a img {
+    width: 95px;
+}
+
+.nav-text ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 17pt;
+    display: block;
+    width: 100%;
 }
 
 #side-bar{
@@ -668,6 +1293,17 @@ main{
     height: 26px;
 }
 
+.nav-icon ul {
+    list-style: none;
+    margin-left: auto;
+    padding-left: 0;
+    margin-right: auto;
+    padding-right: 0;
+}
+
+.nav-icon ul li a img {
+    width: 35px;
+}
 
 .nav-header-menu{
     display: none;
@@ -685,6 +1321,177 @@ main{
     width: 20%;
     position: fixed;
     right: 2px;
+}
+
+
+/* David - Feed geral  */
+
+.criar-publicacoes{
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.publicacoes{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.criar-publicacoes hr{
+    background-color: #F8ECEC;
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.criar-publicacoes p {
+    margin-bottom: 0;
+}
+
+.textarea-publicacoes{
+    width: 100%;
+    height: 54px;
+
+}
+
+#criar-publicacao{
+    background-color: #FFFFFF;
+    height: 123px;
+    width: 800px;
+    
+}
+
+.publicacao{
+    background-color: #FFFFFF;
+    height: auto;
+    width: 800px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.publicacao-row{
+    padding: 10px;
+}
+
+.publicacao span{
+    font-size: 20pt;
+}
+
+.menu-share{
+    text-align: center;
+}
+
+.menu-share img{
+    width: 25px;
+    height: 23px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-status-puplic{
+    text-align: end;
+    list-style: none;
+}
+
+.menu-status-puplic li{
+    display: inline;
+    padding-left: 10px;
+}
+
+.menu-status-puplic li a{
+    font-size: 9pt;
+    text-decoration: none;
+    color:#383737;
+}
+
+.menu-status-puplic li a img{
+    width: 18px;
+    height: 15px;
+}
+
+
+.avatar-publicacoes{
+    border-radius: 100%;
+    width: 54px;
+    height: 54px;
+    background-image: url("../image/avatares/perfil-quatro.jpg");
+    background-color: #9F6F78;
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+.button-share-photo{
+    width: 100px;
+    height: 29px;
+    border-radius: 10px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    font-size: 10px;
+}
+
+.button-share-photo img{
+    width: 20px;
+    height: 20px;
+}
+
+.button-enviar-publicacao{
+    width: 100px;
+    height: 29px;
+    border-radius: 10px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    font-size: 10px;
+}
+
+.button-enviar-publicacao img{
+    width: 20px;
+    height: 20px;
+}
+
+.propagandas{
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 1900px;
+    background-color: #FFFFFF;
+}
+
+.propagandas h3{
+    font-size: 15pt;
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+#cabecalho-propagandas{
+    height: 60px;
+}
+
+#cabecalho-propagandas img{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.anuncio img{
+    width: 100%;
+    height: 120px;
+
+}
+
+.anuncio button{
+    width: 100%;
+    height: 41px;
+    border: solid 2px #9F6F78;
+    background-color: transparent;
+    color: #9F6F78;
+    display: block;
 }
 
 }

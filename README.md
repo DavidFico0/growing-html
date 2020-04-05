@@ -1,7 +1,5 @@
 # growing-html
 
-
-
 <h2>Paleta de Cores</h2>
 <h3>Background</h3>
 <ul>
