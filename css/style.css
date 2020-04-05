@@ -455,6 +455,74 @@ main{
     display: block;
 }
 
+/* David Chat - Inbox */
+
+.contatos-chat{
+    margin-top: 80px;
+    overflow: auto;
+    height: 80vh;
+}
+
+.card-mensagem{
+    padding: 15px;
+}
+
+.balao-mensagens{
+    margin: 4px;
+    border-radius: 5px;
+    width: 380px;
+    height: 80px;
+}
+
+.card-mensagem textarea{
+    width: 100%;
+    height: auto;
+}
+
+.contato-span{
+    color: #383737;
+    font-size: 15pt;
+}
+
+.email-span{
+    color: #888888;
+    font-size: 10pt;
+}
+
+.overflow-chat{
+    margin-top: 70px;
+    height: 75vh;
+    width: 930px;
+    overflow: auto;
+}
+
+.corpo-chat{
+    padding: 5px;
+    border: solid 1px hsl(0, 9%, 94%);
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 900px;
+}
+
+.mensage-send {
+    border-top: solid 2px #F3EDEE;
+    background-color: hsl(0, 7%, 94%);
+    height: 15vh;
+    width: 900px;;
+}
+
+.avatar-chat{
+    border-radius: 100%;
+    width: 54px;
+    height: 54px;
+    background-image: url(../image/avatares/perfil-quatro.jpg);
+    background-color: #9F6F78;
+    background-position: center;
+    background-size: 80px;
+    background-repeat: no-repeat;
+}
+
+
 /* Seção Home */
 
 #home{
@@ -938,6 +1006,66 @@ main{
     position: fixed;
     right: 1px;
 }
+
+/* David Chat - Inbox */
+
+.contatos-chat{
+    margin-top: 80px;
+    overflow: auto;
+    height: 80vh;
+}
+
+.card-mensagem{
+    padding: 15px;
+}
+
+.balao-mensagens{
+    margin: 4px;
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+    font-size: 10pt;
+}
+
+.card-mensagem textarea{
+    width: 100%;
+    height: auto;
+}
+
+.contato-span{
+    color: #383737;
+    font-size: 12pt;
+}
+
+.email-span{
+    color: #888888;
+    font-size: 9pt;
+}
+
+.overflow-chat{
+    margin-top: 70px;
+    height: 75vh;
+    width: 780px;
+    overflow: auto;
+}
+
+.corpo-chat{
+    padding: 5px;
+    border: solid 1px hsl(0, 9%, 94%);
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 770px;
+}
+
+.mensage-send {
+    border-top: solid 2px #F3EDEE;
+    background-color: hsl(0, 7%, 94%);
+    height: 15vh;
+    width: 780px;;
+}
+
+
+
 }
 
 
@@ -1204,8 +1332,76 @@ main{
         position: fixed;
         right: 2px;
     }
+
+    /* David Chat - Inbox */
+
+.contatos-chat{
+    margin-top: 80px;
+    overflow: auto;
+    height: 80vh;
+}
+
+.card-mensagem{
+    padding: 15px;
+}
+
+.balao-mensagens{
+    margin: 4px;
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+    font-size: 10pt;
+}
+
+.card-mensagem textarea{
+    width: 100%;
+    height: auto;
+}
+
+.contato-span{
+    color: #383737;
+    font-size: 10pt;
+}
+
+.email-span{
+    color: #888888;
+    font-size: 8pt;
+}
+
+.overflow-chat{
+    margin-top: 70px;
+    height: 75vh;
+    width: 710px;
+    overflow: auto;
+}
+
+.corpo-chat{
+    padding: 5px;
+    border: solid 1px hsl(0, 9%, 94%);
+    background-color: #FFFFFF;
+    height: 150vh;
+    width: 700px;
+}
+
+.mensage-send {
+    border-top: solid 2px #F3EDEE;
+    background-color: hsl(0, 7%, 94%);
+    height: 15vh;
+    width: 710px;;
+}
+
+.avatar-chat{
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    background-image: url(../image/avatares/perfil-quatro.jpg);
+    background-color: #9F6F78;
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
+}
     
-    }
+}
 
 
 @media (max-width: 720px){
@@ -1492,6 +1688,77 @@ main{
     background-color: transparent;
     color: #9F6F78;
     display: block;
+}
+
+/* David Chat - Inbox */
+
+.contatos-chat{
+    width: 630px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90px;
+}
+
+.card-mensagem{
+    padding: 15px;
+}
+
+.balao-mensagens{
+    margin: 4px;
+    border-radius: 5px;
+    width: 300px;
+    height: 80px;
+    font-size: 10pt;
+}
+
+.card-mensagem textarea{
+    width: 100%;
+    height: auto;
+}
+
+.contato-span{
+    color: #383737;
+    font-size: 10pt;
+}
+
+.email-span{
+    color: #888888;
+    font-size: 8pt;
+}
+
+.overflow-chat{
+    margin-top: 20px;
+    height: 75vh;
+    width: 650px;
+    overflow: auto;
+}
+
+.corpo-chat{
+    padding: 5px;
+    border: solid 1px hsl(0, 9%, 94%);
+    background-color: #FFFFFF;
+    height: 100vh;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mensage-send {
+    border-top: solid 2px #F3EDEE;
+    background-color: hsl(0, 7%, 94%);
+    height: 15vh;
+    width: 650px;;
+}
+
+.avatar-chat{
+    border-radius: 100%;
+    width: 34px;
+    height: 34px;
+    background-image: url(../image/avatares/perfil-quatro.jpg);
+    background-color: #9F6F78;
+    background-position: center;
+    background-size: 70px;
+    background-repeat: no-repeat;
 }
 
 }
