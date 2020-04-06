@@ -1196,6 +1196,12 @@ main{
     margin-bottom: 5px;
 }
 
+
+.publicacao-row img{
+    width: 100%;
+    height: 400px;
+}
+
 .publicacao-row{
     padding: 10px;
 }
@@ -1567,6 +1573,12 @@ main{
     margin-bottom: 5px;
 }
 
+
+.publicacao-row img{
+    width: 100%;
+    height: 300px;
+}
+
 .publicacao-row{
     padding: 10px;
 }
@@ -1927,9 +1939,20 @@ main{
         margin-top: 5px;
         margin-bottom: 5px;
     }
+
+    
+    .criar-public-btn{
+        width: 40%;
+    }
     
     .publicacao-row{
         padding: 10px;
+    }
+
+    
+    .publicacao-row img{
+        width: 100%;
+        height: 200px;
     }
     
     .publicacao span{
@@ -1938,6 +1961,11 @@ main{
     
     .menu-share{
         text-align: center;
+    }
+
+    
+    .menu-share div{
+        width: 30%;
     }
     
     .menu-share img{
@@ -2123,3 +2151,390 @@ main{
     }
     
     }
+
+    @media (max-width: 350px){
+    
+        .menu-icons{
+            width: 10%;
+            position: fixed;
+            z-index: 10;
+            height: 100%;
+            left: 0;
+        }
+        
+        
+        .logo-g a img{
+            width: 27px;
+            height: 35px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .logo-growing a img {
+            width: 95px;
+        }
+        
+        .nav-text ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 12pt;
+            display: block;
+            width: 100%;
+        }
+        
+        #side-bar{
+            position: fixed;
+            left: -50%;
+            width: 40%;
+            z-index: 9;
+            height: 100%;
+            transition: all 500ms linear;
+        }
+        
+        #side-bar.active{
+            left: 10%;
+        }
+        
+        
+        #main{
+            width: 90%;
+            left: 10%;   
+            height: 100%;
+            position: fixed;
+            transition: all 501ms linear;
+        }
+        
+        #main.active{
+            width: 90%;
+            left: 10%;  
+        
+        } 
+        
+        
+        .search-header{
+            width: 250px;
+            border: solid 2px #9F6F78;
+            border-radius: 7px;
+        }
+        
+        .search-header button {
+            border: none;
+            background-color: transparent;
+            margin-right: 3px;
+            padding-right: 3px;
+            
+        }
+        
+        .search-header input{
+            border: none;
+            width: 195px;
+            margin-left: 3px;
+        }
+        
+        #icon-search{
+            width: 28px;
+            height: 26px;
+        }
+        
+        .nav-icon ul {
+            list-style: none;
+            margin-left: -4px;
+            padding-left: 0;
+            margin-right: auto;
+            padding-right: 0;
+        }
+        
+        .nav-icon ul li a img {
+            width: 24px;
+        }
+        
+        .nav-header-menu{
+            display: none;
+        }
+        
+        .usuario-header {
+            display: none;
+        }
+
+        .usuario-header-div {
+            width: 32px;
+            height: 32px;
+            border-radius: 100%;
+            background-color: #9F6F78;
+            background-image: url(../image/icons/do-utilizador-white.png);
+            background-repeat: no-repeat;
+            background-size: 21px;
+            background-position: center;
+            margin-left: 9px;
+        }
+        
+        .search-input-sm{
+            width: 70%;
+        }
+        
+        .avatar-hd-sm {
+            width: 20%;
+            position: fixed;
+            right: 2px;
+        }
+        
+        
+        /* David - Feed geral  */
+        
+        .criar-publicacoes{
+            margin-top: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 180px;
+    
+        }
+        
+        .publicacoes{
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+        }
+        
+        .criar-publicacoes hr{
+            background-color: #F8ECEC;
+            margin-top: 0;
+            margin-bottom: 3px;
+        }
+        
+        .criar-publicacoes p {
+            font-size: 9pt;
+            margin-bottom: 0;
+        }
+        
+        .textarea-publicacoes{
+            width: 100%;
+            height: 54px;
+        
+        }
+        
+        #criar-publicacao{
+            background-color: #FFFFFF;
+            height: 183px;
+            width: 800px;
+            
+        }
+
+        .criar-public-btn{
+            width: 40%;
+        }
+        
+        .publicacao{
+            background-color: #FFFFFF;
+            height: auto;
+            width: 800px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .publicacao-row{
+            padding: 10px;
+        }
+        
+        .publicacao span{
+            font-size: 15pt;
+        }
+
+        .publicacao-row img{
+            width: 100%;
+            height: 200px;
+        }
+        
+        .menu-share{
+            text-align: center;
+        }
+
+        .menu-share div{
+            width: 30%;
+        }
+        
+        .menu-share img{
+            width: 25px;
+            height: 23px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .menu-status-puplic{
+            text-align: end;
+            list-style: none;
+        }
+        
+        .menu-status-puplic li{
+            display: inline;
+            padding-left: 10px;
+        }
+        
+        .menu-status-puplic li a{
+            font-size: 9pt;
+            text-decoration: none;
+            color:#383737;
+        }
+        
+        .menu-status-puplic li a img{
+            width: 18px;
+            height: 15px;
+        }
+        
+        
+        .avatar-publicacoes{
+            border-radius: 100%;
+            width: 34px;
+            height: 34px;
+            background-image: url("../image/avatares/perfil-quatro.jpg");
+            background-color: #9F6F78;
+            background-position: center;
+            background-size: 70px;
+            background-repeat: no-repeat;
+        }
+        
+        .button-share-photo{
+            width: 100px;
+            height: 29px;
+            border-radius: 10px;
+            border: solid 2px #9F6F78;
+            background-color: transparent;
+            color: #9F6F78;
+            font-size: 10px;
+        }
+        
+        .button-share-photo img{
+            width: 20px;
+            height: 20px;
+        }
+        
+        .button-enviar-publicacao{
+            width: 100px;
+            height: 29px;
+            border-radius: 10px;
+            border: solid 2px #9F6F78;
+            background-color: transparent;
+            color: #9F6F78;
+            font-size: 10px;
+        }
+        
+        .button-enviar-publicacao img{
+            width: 20px;
+            height: 20px;
+        }
+        
+        .propagandas{
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 300px;
+            height: 1900px;
+            background-color: #FFFFFF;
+        }
+        
+        .propagandas h3{
+            font-size: 10pt;
+            margin-left: 15px;
+            margin-top: 10px;
+            color: #FFFFFF;
+        }
+        
+        #cabecalho-propagandas{
+            height: 60px;
+        }
+        
+        #cabecalho-propagandas img{
+            margin-top: 10px;
+            width: 45px;
+            height: 45px;
+        }
+        
+        .anuncio img{
+            width: 100%;
+            height: 120px;
+        
+        }
+        
+        .anuncio button{
+            width: 100%;
+            height: 41px;
+            border: solid 2px #9F6F78;
+            background-color: transparent;
+            color: #9F6F78;
+            display: block;
+        }
+        
+        /* David Chat - Inbox */
+        
+        .contatos-chat{
+            width: 630px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 90px;
+        }
+        
+        .card-mensagem{
+            padding: 15px;
+        }
+        
+        .balao-mensagens{
+            margin: 4px;
+            border-radius: 5px;
+            width: 300px;
+            height: 80px;
+            font-size: 10pt;
+        }
+        
+        .card-mensagem textarea{
+            width: 100%;
+            height: auto;
+        }
+        
+        .contato-span{
+            color: #383737;
+            font-size: 10pt;
+        }
+        
+        .email-span{
+            color: #888888;
+            font-size: 8pt;
+        }
+        
+        .overflow-chat{
+            margin-top: 20px;
+            height: 75vh;
+            width: 650px;
+            overflow: auto;
+        }
+        
+        .corpo-chat{
+            padding: 5px;
+            border: solid 1px hsl(0, 9%, 94%);
+            background-color: #FFFFFF;
+            height: 100vh;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .mensage-send {
+            border-top: solid 2px #F3EDEE;
+            background-color: hsl(0, 7%, 94%);
+            height: 15vh;
+            width: 650px;;
+        }
+        
+        .avatar-chat{
+            border-radius: 100%;
+            width: 34px;
+            height: 34px;
+            background-image: url(../image/avatares/perfil-quatro.jpg);
+            background-color: #9F6F78;
+            background-position: center;
+            background-size: 70px;
+            background-repeat: no-repeat;
+        }
+        
+        }
