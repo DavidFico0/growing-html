@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Prestador Servico</title>
+    <title>Nome Usuario</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
@@ -18,15 +18,15 @@
     <div class="menu-icons bg-gray-color">
         <div class="logo-g">
             <a href="#!" onclick="toggleSidebar()">
-                <img src="image/logo-primary.png" alt="" style="height: 40px;" onclick="closeNav()">
+                <img src="image/logo-primary.png" alt="" onclick="closeNav()">
             </a>
         </div>
         <div class="nav-icon">
             <ul>
-                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
-                <li><a href="#!"><img src="image/icons/feed-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/portfolio-white.png" alt=""></a></li>
+                <li><a href="feedGeral.html"><img src="image/icons/feed-white.png" alt=""></a></li>
                 <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
-                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/solicitacao-white.png" alt=""></a></li>
                 <li><a href="#!"><img src="image/icons/calendario-white.png" alt=""></a></li>
             </ul>
         </div>
@@ -34,13 +34,15 @@
     <div class="bg-primary-color" id="side-bar">
         <div class="logo-growing">
             <a href="#!">
-                <img src="image/growing-logo-white.png" alt="" style="width: 80px;">
+                <img src="image/growing-logo-white.png" alt="">
+
             </a>
+
         </div>
         <div class="nav-text">
             <ul>
                 <li><a href="#!">Portfólio</a></li>
-                <li><a href="#!">Feed geral</a></li>
+                <li><a href="feedGeral.html">Feed geral</a></li>
                 <li><a href="#!">Promoções</a></li>
                 <li><a href="#!">Solicitações</a></li>
                 <li><a href="#!">Agenda</a></li>
@@ -48,58 +50,61 @@
         </div>
     </div>
     <div class="bg-ligth-color" id="main">
-        <div class="row">
-            <div class="col-md-12 nav-header shadow-1">
-                <div class="row">
-                    <div class="col-md-6">
-                        <form action="#!" method="post">
-                            <div class="search-header">
-                                <input type="search" name="" id="">
-                                <button type="submit"><img src="image/icons/procurar-primary.png" alt=""
-                                        id='icon-search'></button>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="nav-header-menu">
-                            <ul>
-                                <li><a href="#!"><img src="image/icons/calendario-gray.png" alt=""></a></li>
-                                <li><a href="#!"><img src="image/icons/bate-papo-gray.png" alt=""></a></li>
-                                <li><a href="#!"><img src="image/icons/sino-primary.png" alt=""></a></li>
+        <div class="header-corpo">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 nav-header shadow-1">
+                    <div class="row">
+                        <div class="col-md-6 search-input-sm">
+                            <form action="#!" method="post">
+                                <div class="search-header">
+                                    <input type="search" name="" id="">
+                                    <button type="submit"><img src="image/icons/procurar-primary.png" alt=""
+                                            id='icon-search'></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="nav-header-menu">
+                                <ul>
+                                    <li><a href="#!"><img src="image/icons/calendario-gray.png" alt=""></a></li>
+                                    <li><a href="#!"><img src="image/icons/bate-papo-gray.png" alt=""></a></li>
+                                    <li><a href="#!"><img src="image/icons/sino-primary.png" alt=""></a></li>
 
-                            </ul>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 avatar-hd-sm">
+                            <a href="#!">
+                                <div class="d-flex flex-row bd-highlight mb-3">
+                                    <div class="usuario-header p-2 bd-highlight">usuario@dominio.com.br</div>
+                                    <div class="usuario-header-div p-2 bd-highlight"></div>
+
+                                </div>
+                            </a>
                         </div>
 
                     </div>
-                    <div class="col-md-3">
-                        <a href="#!">
-                            <div class="d-flex flex-row bd-highlight mb-3">
-                                <div class="usuario-header p-2 bd-highlight">usuario@dominio.com.br</div>
-                                <div class="usuario-header-div p-2 bd-highlight"></div>
-
-                            </div>
-                        </a>
-                    </div>
-
                 </div>
+
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-9">
                 <div class="card perfilHeader bg-primary-color text-black">
                     <img src="..." class="card-img" alt="Imagem de Fundo">
                     <div class="card-img-overlay">
                         <img src="image/avatares/perfil-dois.jpg" alt="fotoPerfil" class="profilePic">
                         <h5 class="card-title">Usuario Profissional</h5>
                         <p class="card-text">
-                            Profissional da área: Cat ipsum dolor sit amet, mewl for food at 4am terrorize the
+                            <strong>Profissional da área:</strong> Cat ipsum dolor sit amet, mewl for food at 4am
+                            terrorize the
                             hundred-and-twenty-pound rottweiler and
                             steal his bed, not sorry and when in doubt, wash. Playing with balls of wool. Meow all
                             night.
                             Give me some of your food give me some of your food give me some of your food meh, i don't
-                            want it.
-                            Cereal boxes make for five star accommodation lick arm hair.
+                            want it. Cereal boxes make for five star accommodation lick arm hair.
                         </p>
                     </div>
                 </div>
@@ -107,88 +112,121 @@
         </div>
 
         <div class="row">
-            <div class="col-md-5">
+            <div class="col-5">
                 <div class="card cartaoInfo">
                     <div class="card-body">
                         <h5 class="card-title">
-                            <img src="..." alt="..">
+                            <img src="..." class="infoLogo" alt="..">
                             Contato</h5>
                         <p class="card-text">
-                            <img src="..." alt="..">
+                            <img src="..." class="infoLogo" alt="..">
                             Rua, Teste Nº 00 Bairro 99-999-999 Cidade, UF</p>
                         <p class="card-text">
-                            <img src="..." alt="..">
+                            <img src="..." class="infoLogo" alt="..">
                             +55(00) 9999-9999</p>
                         <p class="card-text">
-                            <img src="..." alt="..">
+                            <img src="..." class="infoLogo" alt="..">
                             email@dominio.com.br</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-3">
                 <div class="card cartaoServicos">
                     <div class="card-body">
                         <h5 class="card-title">Serviços</h5>
-                        <p class="card-text s1">73</p>
+                        <p class="card-text s1"><strong>73</strong></p>
                         <p class="card-text s2">60 <br>executados</p>
                         <p class="card-text s3">13 <br>agendados</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-4">
                 <div class="card cartaoAvaliacao">
                     <div class="card-body">
                         <h5 class="card-title">Informações sobre</h5>
                         <p class="card-text s4">
-                            <img src="..." alt="..." style="width: 20%;">
+                            <img src="image/icons/comente-tres-primary.png" alt="..." class="logoCartao">
                             Presta bom atendimento</p>
                         <p class="card-text s5">
-                            <img src="..." alt="..." style="width: 20%;">
-                            É pontual</p>
+                            <img src="image/icons/cronometro-primary.png" alt="..." class="logoCartao">
+                            É pontual, entrega os produtos dentro do prazo</p>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
+            **Acho que esse botão devia ir em outro lugar tipo nas configurações do perfil**
             <div class="col-12">
                 <button type="button" class="btn botPromo bg-primary-color btn-lg">
                     <img src="image/icons/promocao-gray.png" alt="..." style="width: 30px;">
-                    Criar promoções de serviços e produtos</button>
+                    Criar promoções</button>
             </div>
-        </div>
+        </div> -->
 
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-10">
-                    <div id="carouselExampleControls" class="carousel carrosel slide" data-ride="carousel">
+                <div class="col-6">
+                    <h4 class="alinhaTexto">Meu Portfólio</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="myCarousel1" class="carousel carrosel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="card cartaoCarrosel">
-                                    <img src="..." class="card-img-top" alt="Imagem servico">
+                                    <img src="image/produtos/produto-dois.png" class="card-img-top"
+                                        alt="Imagem servico">
                                     <div class="card-body">
                                         <h5 class="card-title">Ultimo Serviço</h5>
-                                        <p class="card-text">Descrição....</p>
-                                        <p class="card-text">**views// likes // comments**</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="card cartaoCarrosel">
-                                    <img src="..." class="card-img-top" alt="Imagem servico">
+                                    <img src="image/produtos/produto-tres.png" class="card-img-top"
+                                        alt="Imagem servico">
                                     <div class="card-body">
                                         <h5 class="card-title">Ultimo Serviço</h5>
-                                        <p class="card-text">Descrição....</p>
-                                        <p class="card-text">**views// likes // comments**</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="card cartaoCarrosel">
-                                    <img src="..." class="card-img-top" alt="Imagem servico">
+                                    <img src="image/produtos/produto-dois.png" class="card-img-top"
+                                        alt="Imagem servico">
                                     <div class="card-body">
                                         <h5 class="card-title">Ultimo Serviço</h5>
-                                        <p class="card-text">Descrição....</p>
-                                        <p class="card-text">**views// likes // comments**</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -197,45 +235,299 @@
                                     <img src="..." class="card-img-top" alt="Imagem servico">
                                     <div class="card-body">
                                         <h5 class="card-title">Ultimo Serviço</h5>
-                                        <p class="card-text">Descrição....</p>
-                                        <p class="card-text">**views// likes // comments**</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="card cartaoCarrosel">
                                     <img src="..." class="card-img-top" alt="Imagem servico">
                                     <div class="card-body">
                                         <h5 class="card-title">Ultimo Serviço</h5>
-                                        <p class="card-text">Descrição....</p>
-                                        <p class="card-text">**views// likes // comments**</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                                 <div class="card cartaoCarrosel">
                                     <img src="..." class="card-img-top" alt="Imagem servico">
                                     <div class="card-body">
                                         <h5 class="card-title">Ultimo Serviço</h5>
-                                        <p class="card-text">Descrição....</p>
-                                        <p class="card-text">**views// likes // comments**</p>
-                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#myCarousel1" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#myCarousel1" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
-                    
+
                     </a>
                 </div>
             </div>
         </div>
-    </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-6 trocarLayout">
+                    <a href="#">
+                        <h4 class="alinhaTexto">Minha vitrine de produtos</h4>
+                    </a>
+                </div>
+                <div class="col-6 trocarLayout">
+                    <a href="#">
+                        <h4 id="alinhaTexto2">Meus Serviços</h4>
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="myCarousel2" class="carousel carrosel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card cartaoCarrosel">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Descrição produto 1</h5>
+                                        <img src="image/produtos/produto-um.png" class="card-img-top"
+                                            alt="Imagem servico">
+                                        <p class="card-text">R$44,00</p>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
+                                        <a href="#" class="btn bg-primary-color">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card cartaoCarrosel">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Descrição produto 2</h5>
+                                        <img src="image/produtos/produto-dois.png" class="card-img-top"
+                                            alt="Imagem servico">
+                                        <p class="card-text">R$182,00</p>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
+                                        <a href="#" class="btn bg-primary-color">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card cartaoCarrosel">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Descrição produto 3</h5>
+                                        <img src="image/produtos/produto-tres.png" class="card-img-top"
+                                            alt="Imagem servico">
+                                        <p class="card-text">R$41,00</p>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
+                                        <a href="#" class="btn bg-primary-color">Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card cartaoCarrosel">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Descrição produto 4</h5>
+                                        <img src="image/produtos/produto-tres.png" class="card-img-top"
+                                            alt="Imagem servico">
+                                        <p class="card-text">R$13,00</p>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
+                                        <a href="#" class="btn bg-primary-color">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card cartaoCarrosel">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Descrição produto 5</h5>
+                                        <img src="image/produtos/produto-dois.png" class="card-img-top"
+                                            alt="Imagem servico">
+                                        <p class="card-text">R$150,00</p>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
+                                        <a href="#" class="btn bg-primary-color">Comprar</a>
+                                    </div>
+                                </div>
+                                <div class="card cartaoCarrosel">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Descrição produto 6</h5>
+                                        <img src="image/produtos/produto-um.png" class="card-img-top"
+                                            alt="Imagem servico">
+                                        <p class="card-text">R$300,44</p>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am</p>
+                                        <p class="card-text">
+                                            <ul class="menu-status-puplic">
+                                                <li><a href="#!"><img src="image/icons/coracao-primary.png"
+                                                            alt="">32</a></li>
+                                                <li><a href="#!"><img src="image/icons/visibilidade-primary.png"
+                                                            alt="">76</a></li>
+                                                <li><a href="#!"><img src="image/icons/comente-primary.png"
+                                                            alt="">54</a></li>
+                                            </ul>
+                                        </p>
+                                        <a href="#" class="btn bg-primary-color">Comprar</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-9 estiloColuna">
+                    <img src="image/icons/feed-gray.png" style="width: 5%;">
+                    <h4 style="display: inline-flex;">Depoimentos</h4>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div id="myCarousel3" class="carousel carrosel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card cartaoCarroselD">
+                                    <div class="card-body">
+                                        <img src="image/avatares/perfil-um.jpg" class="fotoDepoimento">
+                                        <h5 class="card-title" style="display: inline-flex;">Usuario</h5>
+                                        <h6 class="card-subtitle text-muted">05/04/20</h6>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am terrorize
+                                            the
+                                            hundred-and-twenty-pound rottweiler and
+                                            steal his bed, not sorry and when in doubt, wash.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card cartaoCarroselD">
+                                    <div class="card-body">
+                                        <img src="image/avatares/perfil-quatro.jpg" class="fotoDepoimento">
+                                        <h5 class="card-title" style="display: inline-flex;">Usuario</h5>
+                                        <h6 class="card-subtitle text-muted">05/04/20</h6>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am terrorize
+                                            the
+                                            hundred-and-twenty-pound rottweiler and
+                                            steal his bed, not sorry and when in doubt, wash.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card cartaoCarroselD">
+                                    <div class="card-body">
+                                        <img src="image/avatares/perfil-dois.jpg" class="fotoDepoimento">
+                                        <h5 class="card-title" style="display: inline-flex;">Usuario</h5>
+                                        <h6 class="card-subtitle text-muted">05/04/20</h6>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am terrorize
+                                            the
+                                            hundred-and-twenty-pound rottweiler and
+                                            steal his bed, not sorry and when in doubt, wash.</p>
+                                    </div>
+                                </div>
+
+                                <div class="card cartaoCarroselD">
+                                    <div class="card-body">
+                                        <img src="image/avatares/perfil-tres.jpg" class="fotoDepoimento">
+                                        <h5 class="card-title" style="display: inline-flex;">Usuario</h5>
+                                        <h6 class="card-subtitle text-muted">05/04/20</h6>
+                                        <p class="card-text">Cat ipsum dolor sit amet, mewl for food at 4am terrorize
+                                            the
+                                            hundred-and-twenty-pound rottweiler and
+                                            steal his bed, not sorry and when in doubt, wash.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#myCarousel3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
 
     </div>
 
@@ -256,6 +548,9 @@
     <script src="js/nav-color.js"></script>
     <script src="js/side-menu.js"></script>
 
+
+
+    <!-- Page made by amanda ¯\_(ツ)_/¯-->
 </body>
 
 </html>
