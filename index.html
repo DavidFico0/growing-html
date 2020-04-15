@@ -3,77 +3,268 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Growing</title>
+    
+    <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+
+    <!--fontes -->
     <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!--paleta de cores-->
     <link rel="stylesheet" href="css/palette.css">
 </head>
 <body id="page-top">
-    <header>
-        <nav class="navbar navbar-expand-sm fixed-top font-nav bg-tranparent-nav">
-            <a class="navbar-brand nav-scroll" href="#page-top" id="link-logo"></a>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link text-color-gray nav-scroll" href="#sobre">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-color-gray nav-scroll" href="#">Termos e serviços</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-color-gray" href="#">Privacidade</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-color-gray" href="#">Contato</a>
-              </li>
-            </ul>
-          </nav>
-    </header>
-    <section id="home">
-        <div class="logo-horizontal"><img src="image/growing-logo-gray.png"></div>
-        <div class="frase-meio"><h3 class="text-color-dark">quer almentar seu alcance?</h3></div>
-        <div class="botoes-home">
-            <button class="btn btn-ligth">Entrar</button>
-            <button class="btn btn-gray">Começar</button>
-        </div>
-    </section>
-    <section id="sobre">
-        <div class="logo-center"><img src="image/logo-primary.png" style="width: 60px;" alt="Logo"></div>
-        <div class="logo-center2"><img src="image/growing-logo-primary.png" alt="width: 120px" alt='logo horizontal'></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <h2 class="text-color-primary text-center">Sobre o growing</h2>
-              <p style="text-align: justify;">
-                O índice de empreendedorismo está crescendo exponencialmente no Brasil, e cada vez mais pessoas preferem abrir seu próprio negócio para ter autonomia. 
-                No entanto, existe uma grande deficiência no processo de inserção desses pequenos empreendedores no mercado, 
-                uma vez que as grandes empresas dominam os holofotes nas mídias digitais da atualidade.
-                É nesse cenário que surge a Growing: uma rede social completamente arquitetada para otimizar processos mercadológicos no segmento da beleza e estética. 
-                O objetivo é conectar profissionais a consumidores cujos interesses estejam alinhados, proporcionando melhores relacionamentos e maior assertividade 
-                no posicionamento da marca. 
-                Para isso, a rede oferece ferramentas de marketing digital fáceis de manipular, mecanismos de networking, e espaço para promoção de produtos e serviços, 
-                a fim de disponibilizar um ambiente favorável ao crescimento profissional e ampliar as oportunidades de negócio.
+  <header>
+    <nav class="navbar navbar-expand-sm fixed-top font-nav bg-tranparent-nav">
+      <a class="navbar-brand nav-scroll" href="#page-top" id="link-logo"></a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link nav-scroll" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-scroll" href="#professional">Serviços</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Privacidade</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link nav-scroll" href="#contato">Contato</a>
+        </li>
+      </ul>
+      <a href="login.html" id="main-button" class="btn btn-ligth" role="button">Entrar</a>
+    </nav>
+  </header>
+  <section id="landing-home">
+    <div class="container-fluid">
+      <div class="row">
+        
+        <!--LANDING-->
+        <div id="first-column" class="col-6">
+
+            <!--textos-->
+            <div class="briefing">
+              <h1 class="titulo">Growing aumenta seu alcance</h1>
+          
+              <p id="descricao" class="text-color-dark">
+                Melhore o posicionamento da sua marca com a Growing: um ambiente onde pequenos  empreendedores encontram grandes oportunidades.
               </p>
             </div>
-            <div class="col-md-6">
-              <img src="image/negocios.png" style="height:486px" alt="Men Working">
+
+            <!--botões-->
+            <div id="botoes-home" class="d-flex justify-content-between">
+              <a href="#sobre" class="btn btn-lg btn-ligth" role="button" aria-disabled="true">Saber mais</a>
+              <a href="cadastro.html" class="btn btn-secondary btn-lg btn-gray" role="button" aria-disabled="true">Cadastrar</a>
             </div>
 
+        </div>
+
+        <!--ILUSTRAÇÃO-->
+        <div id="second-column" class="col-6">
+            <img id="working-late" src="image/undraw_working_late.svg">
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container-fluid mx-auto">
+      <div class="row">
+        
+        <!--ILUSTRAÇÃO-->
+        <div id="first-column" class="col-6">
+          <img id="barber" src="image/undraw_barber_3uel.svg">
+        </div>
+
+        <!--EXPLANATION-->
+        <div id="second-column" class="col-6">
+          <div class="briefing">
+
+            <h1 class="titulo">Sobre a Growing</h1>
+        
+            <p id="explanation" class="text-color-dark">
+              A Growing é uma rede social direcionada ao segmento da beleza e estética. Nosso objetivo é <strong>ajudar pequenos empreendedores a alavancarem seu negócio</strong> com ferramentas fáceis de manusear.
+              <br>
+              Aqui conectamos profissionais a consumidores que compartilham dos mesmos interesses, com o intuito de impulsionar o engajamento e criar melhores relações.
+            </p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="professional">
+
+    <div class="container-fluid mx-auto">
+
+      <div class="row">
+        
+        <div class="col-12 text-center">
+          <h1 class="titulo-services">Para profissionais</h1>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top mt-5" src="image/undraw_people_search_wctu.svg" alt="Networking">
+            <div class="card-body">
+              <p id="titulo" class="card-title text-center text-color-dark">
+                Networking
+              </p>
+              <p id="subtitulo" class="card-subtitle text-center text-color-dark">
+                Encontre solicitações e faça novos clientes
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top mt-5" src="image/undraw_portfolio_feedback_exfk.svg" alt="Portfólio">
+            <div class="card-body">
+              <p id="titulo" class="card-title text-center text-color-dark">
+                Portfólio
+              </p>
+              <p id="subtitulo" class="card-subtitle text-center text-color-dark">
+                Divulgue seus serviços e produtos de forma rápida
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top mt-5" src="image/undraw_crypto_portfolio_2jy5.svg" alt="Gerenciamento">
+            <div class="card-body">
+              <p id="titulo" class="card-title text-center text-color-dark">
+                Gerenciamento
+              </p>
+              <p id="subtitulo" class="card-subtitle text-center text-color-dark">
+                Gerencie seu negócio com ferramentas fáceis de usar
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="user">
+    <div class="container-fluid mx-auto">
+
+      <div class="row">
+        
+        <div class="col-12 text-center">
+          <h1 class="titulo-services">Para consumidores</h1>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top mt-5" src="image/undraw_11like_dislike_1dfj.svg" alt="Networking">
+            <div class="card-body">
+              <p id="titulo" class="card-title text-center text-color-dark">
+                Avaliações
+              </p>
+              <p id="subtitulo" class="card-subtitle text-center text-color-dark">
+                Avalie serviços e produtos que já tenha utilizado e recomende profissionais
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top mt-5" src="image/undraw_services_5tv9.svg" alt="Solicitações">
+            <div class="card-body">
+              <p id="titulo" class="card-title text-center text-color-dark">
+                Solicitações
+              </p>
+              <p id="subtitulo" class="card-subtitle text-center text-color-dark">
+                Compartilhe suas necessidades e encontre profissionais para te atender
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="card">
+            <img class="card-img-top mt-5" src="image/undraw_33a_Booked_j7rj.png" alt="Agendamento">
+            <div class="card-body">
+              <p id="titulo" class="card-title text-center text-color-dark">
+                Agendamento
+              </p>
+              <p id="subtitulo" class="card-subtitle text-center text-color-dark">
+                Agende horários e receba lembretes para manter sua rotina organizada 
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!--ILUSTRAÇÃO-->
+        <div id="first-column" class="col-6">
+          <img id="envelope" src="image/undraw_envelope_n8lc.svg">
+        </div>
+
+        <!--LANDING-->
+        <div id="second-column" class="col-6">
+
+            <!--título-->
+            <div class="formulario">
+              <h1 class="titulo">Converse com a gente</h1>
+
+            <!--formulário-->
+            <form>
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome aqui">
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="exemplo@mail.com">
+              </div>
+              
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" placeholder="O que você quer falar pra gente?" rows="3"></textarea>
+              </div>
+                    
+              <div class="form-group">
+                <button class="btn btn-lg btn-ligth" type="submit">Enviar mensagem</button>
+              </div>
+            </form>
           </div>
 
         </div>
-    </section>
-    <section id="cadastro">
-      
 
-    </section>
-   
-    
-    
-
+      </div>
+    </div>
+  </section>
 
 
     <!-- Scripts para Bootstrap 4-->

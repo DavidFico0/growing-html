@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growing | Login</title>
+    
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--fontes -->
+    <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!--paleta de cores-->
+    <link rel="stylesheet" href="css/palette.css">
+</head>
+<body>
+
+  <section id="login">
+    <h1 id="logotipo" class="text-center">G</h1>
+    <div class="row">
+      <div class="col-8 col-xl-4 col-md-8 card">
+        <i class="fas fa-user-circle fa-7x mx-auto mt-4"></i>
+  
+        <form class="formulario mx-auto">
+          <div class="form-group">
+            <input type="email" class="form-control form-control-lg" id="email" name="email"
+              placeholder="exemplo@mail.com">
+          </div>
+  
+          <div class="form-group">
+            <input type="password" class="form-control form-control-lg" id="senha" name="senha"
+              placeholder="Digite sua senha aqui">
+          </div>
+  
+          <div id="conexao" class="form-check">
+            <input type="checkbox" class="form-check-input" id="manter-conectado">
+            <label id="manter-conectado" class="form-check-label" for="manter-conectado-texto">Mantenha-me
+              conectado</label>
+          </div>
+  
+          <div class="form-group">
+            <a href="feedGeral.html" class="btn btn-lg btn-ligth mt-2" role="button" aria-disabled="true">Entrar</a>
+          </div>
+  
+          <div class="form-group mt-5">
+            <i class="fas fa-lock"></i>
+            <a href="recover.html" id="recuperar-senha" class="text-muted ml-2">Esqueci minha senha</a>
+          </div>
+  
+          <div class="form-group">
+            <i class="fas fa-user-alt-slash"></i>
+            <a href="cadastro.html" id="cadastrar" class="text-muted">Não tenho cadastro</a>
+          </div>
+  
+        </form>
+      </div>
+    </div>
+    
+  </section>
+
+    <!-- Scripts para Bootstrap 4-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <!-- Jquary e script para scroll nav suave-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/my-scroll.js"></script>
+    <script src="js/nav-color.js"></script>
+</body>
+</html>
