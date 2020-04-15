@@ -163,7 +163,7 @@ header #main-button{
 
 #descricao{
     padding-top: 2%;
-    font-size: 20px;
+    font-size: 130%;
     font-weight: 600;
     text-align: start;
 }
@@ -250,7 +250,7 @@ header #main-button{
 #explanation{
     padding-top: 3%;
     text-align: left;
-    font-size: 21px;
+    font-size: 130%;
     font-weight: 400;
     text-align: start;
 }
