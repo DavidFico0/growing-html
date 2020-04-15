@@ -116,21 +116,6 @@ header #main-button{
     box-sizing: border-box;
 }
 ​
-@media (max-width: 1000px) {
-    #landing-home {
-        max-height: 550px;
-    }
-    #sobre {
-        max-height: 570px;
-    }
-    #professional {
-        max-height: 760px;
-    }
-    #user {
-        max-height: 810px;
-    }
-}
-
 #sobre,
 #professional,
 #user,
@@ -168,13 +153,13 @@ header #main-button{
     text-align: start;
 }
 
-.card #titulo {
+#professional .card #titulo {
     font-size: 26px;
     font-weight: bold;
     margin-top: 2%;
 }
 
-.card #subtitulo {
+#user .card #subtitulo {
     font-size: 20px;
     margin-top: 2%;
 }
@@ -1381,6 +1366,22 @@ i {
 /*  Dispositivos Móveis */
 
 @media (max-width: 1000px){
+
+    #landing-home {
+        max-height: 550px;
+    }
+    
+    #sobre {
+        max-height: 570px;
+    }
+
+    #professional {
+        max-height: 760px;
+    }
+
+    #user {
+        max-height: 810px;
+    }
     
     .menu-icons{
         width: 5%;
