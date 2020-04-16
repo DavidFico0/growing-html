@@ -39,15 +39,14 @@ nav a:hover {
 .bg-tranparent-nav{
     transition: 250ms ease;
     background-color: #383737 !important;
-    /* #3F3D56 */
 }
 
 .bg-tranparent-nav #link-logo {
-    width: 40px;
-    height: 50px;
+    width: 4vw;
+    height: 7vh;
     background-image: url('../image/logo-primary.png');
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 5vh;
 }
 
 .bg-tranparent-nav.scrolled{
@@ -60,16 +59,16 @@ nav a:hover {
 }
 
 .bg-tranparent-nav.scrolled #link-logo {
-    width: 40px;
-    height: 50px;
+    width: 4w;
+    height: 7vh;
     transition: 250ms ease;
     background-image: url('../image/logo-gray.png');
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 5vh;
 }
 
 header .btn-ligth{
-    width: 200px;
+    width: 28vh;
     font-weight: 400;
     background-color: #9F6F78;
     transition: 250ms ease;
@@ -82,7 +81,7 @@ header .btn-ligth:hover{
 
 header #main-button{
     margin-left: auto;
-    margin-right: 80px;
+    margin-right: 5%;
 }
 
 /* estrutura de grid-reaproveitar */
@@ -90,8 +89,6 @@ header #main-button{
 #first-column{
     padding-left: 5%;
     padding-right: 3%;
-    /* padding-left: 95px;
-    padding-right: 40px; */
 }
 
 #second-column{
@@ -137,36 +134,39 @@ header #main-button{
 
 .briefing{
     width: 95%;
-    margin-top: 34%;
+    margin-top: 32%;
 }
 
 .titulo{
     text-align: left;
-    font-size: 38px;
+    font-size: 5.5vh;
     color: #9F6F78;
 }
 
 #descricao{
-    padding-top: 2%;
-    font-size: 130%;
+    padding-top: 2vh;
+    font-size: 2.9vh;
     font-weight: 600;
     text-align: start;
 }
 
-#professional .card #titulo {
-    font-size: 26px;
+#professional .card #titulo,
+#user .card #titulo {
+    font-size: 4vh;
     font-weight: bold;
-    margin-top: 2%;
+    margin-top: 0.5vh;
 }
 
-#user .card #subtitulo {
-    font-size: 20px;
-    margin-top: 2%;
+#user .card #subtitulo,
+#professional .card #subtitulo {
+    font-size: 3vh;
+    margin-top: 0.5vh;
 }
 
-.card{
-    margin-left: 10%;
-    margin-right: 10%;
+#user .card,
+#professional .card{
+    margin-left: 3vw;
+    margin-right: 3vw;
     border-color: transparent;
     background-color: transparent;
 }
@@ -174,18 +174,15 @@ header #main-button{
 .titulo-services{
     text-align: left;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 5.5vh;
     color: #9F6F78;
-    margin-left: 5%;
-}
-
-.col-12{
-    margin-top: 8%;
+    margin-left: 18%;
+    margin-top: 26%;
 }
 
 #professional img,
 #user img{
-    height: 300px;
+    height: 42vh;
 }
 
 /* Section Home */
@@ -213,7 +210,6 @@ header #main-button{
     width: 60%;
     height: 52;
     background-color: #3F3D56;
-    /* background-color: #383737; */
     color: #FFFFFF;
 }
 
@@ -225,9 +221,9 @@ header #main-button{
 
 #working-late,
 #barber{
-    width: 100%;
-    margin-top: 28%;
-    margin-bottom: 25%;
+    width: 40vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
 }
 
 /*Section Sobre */
@@ -235,7 +231,7 @@ header #main-button{
 #explanation{
     padding-top: 3%;
     text-align: left;
-    font-size: 130%;
+    font-size: 3.2vh;
     font-weight: 400;
     text-align: start;
 }

@@ -25,26 +25,34 @@
       <a class="navbar-brand nav-scroll" href="#page-top" id="link-logo"></a>
       
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon mx-auto"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSite">
         
-        <ul class="navbar-nav">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item">
             <a class="nav-link nav-scroll" href="#sobre">Sobre</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link nav-scroll" href="#professional">Serviços</a>
+          <li class="nav-item dropdown">
+
+            <a class="nav-link dropdown-toggle nav-scroll" href="#" data-toggle="dropdown" id="navDrop">Serviços</a>
+
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#professional">Para profissionais</a>
+                <a class="dropdown-item" href="#user">Para consumidores</a>
+            </div>
+
           </li>
           <li class="nav-item">
             <a class="nav-link nav-scroll" href="#contato">Contato</a>
           </li>
         </ul>
       
-        <a href="login.html" id="main-button" class="btn btn-ligth" role="button">Entrar</a>
-      
       </div>
+      
+      <a href="login.html" id="main-button" class="btn btn-ligth" role="button">Entrar</a>
+
     </nav>
       
       
@@ -193,7 +201,7 @@
                 Avaliações
               </p>
               <p id="subtitulo" class="card-subtitle text-center text-color-dark">
-                Avalie serviços e produtos que já tenha utilizado e recomende profissionais
+                Avalie serviços, produtos e recomende profissionais
               </p>
             </div>
           </div>
@@ -207,7 +215,7 @@
                 Solicitações
               </p>
               <p id="subtitulo" class="card-subtitle text-center text-color-dark">
-                Compartilhe suas necessidades e encontre profissionais para te atender
+                Encontre profissionais para atender suas necessidades
               </p>
             </div>
           </div>
@@ -221,7 +229,7 @@
                 Agendamento
               </p>
               <p id="subtitulo" class="card-subtitle text-center text-color-dark">
-                Agende horários e receba lembretes para manter sua rotina organizada 
+                Agende horários e mantenha sua rotina organizada 
               </p>
             </div>
           </div>
