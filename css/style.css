@@ -1,29 +1,29 @@
-*{
+* {
     font-family: 'Gotham', 'Arial Narrow', Arial, sans-serif;
 }
 
-p, 
+p,
 a {
     font-family: 'Gotham', 'Arial Narrow', Arial, Helvetica, sans-serif;
 }
 
 h1,
-h2{
+h2 {
     font-family: 'Gotham Black';
 }
 
-h3{
+h3 {
     font-family: 'Gotham Medium';
 }
 
-main{
+main {
     height: 100vh;
 }
 
 /* LANDING PAGE */
 
 /* Header */
-.font-nav{
+.font-nav {
     font-family: 'Gotham Black';
     font-size: 18px;
 }
@@ -36,7 +36,7 @@ nav a:hover {
     color: #888888;
 }
 
-.bg-tranparent-nav{
+.bg-tranparent-nav {
     transition: 250ms ease;
     background-color: #383737 !important;
 }
@@ -49,11 +49,11 @@ nav a:hover {
     background-size: 5vh;
 }
 
-.bg-tranparent-nav.scrolled{
+.bg-tranparent-nav.scrolled {
     background-color: #9F6F78 !important;
 }
 
-.bg-tranparent-nav.scrolled ul li a{
+.bg-tranparent-nav.scrolled ul li a {
     transition: 250ms ease;
     color: #FFFFFF;
 }
@@ -67,42 +67,42 @@ nav a:hover {
     background-size: 5vh;
 }
 
-header .btn-ligth{
+header .btn-ligth {
     width: 28vh;
     font-weight: 400;
     background-color: #9F6F78;
     transition: 250ms ease;
 }
 
-header .btn-ligth:hover{
+header .btn-ligth:hover {
     background-color: #e2d8da;
-    color:#9F6F78;
+    color: #9F6F78;
 }
 
-header #main-button{
+header #main-button {
     margin-left: auto;
     margin-right: 5%;
 }
 
 /* estrutura de grid-reaproveitar */
 
-#first-column{
+#first-column {
     padding-left: 5%;
     padding-right: 3%;
 }
 
-#second-column{
+#second-column {
     padding-left: 3%;
     padding-right: 5%;
 }
 
-#landing-home{
+#landing-home {
     background-color: #e2d8da;
     height: 100vh;
 }
 
 #login .card,
-#cadastro .card{
+#cadastro .card {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -112,38 +112,38 @@ header #main-button{
     margin: 0;
     box-sizing: border-box;
 }
-​
-#sobre,
+
+​ #sobre,
 #professional,
 #user,
-#contato{
+#contato {
     background-color: #ebebeb;
     height: 100vh;
 }
 
 #login #logotipo,
-#cadastro #logotipo{
+#cadastro #logotipo {
     font-size: 100px;
     color: #422f33;
 }
 
 #login i,
-#cadastro i{
+#cadastro i {
     color: gray;
 }
 
-.briefing{
+.briefing {
     width: 95%;
     margin-top: 32%;
 }
 
-.titulo{
+.titulo {
     text-align: left;
     font-size: 5.5vh;
     color: #9F6F78;
 }
 
-#descricao{
+#descricao {
     padding-top: 2vh;
     font-size: 2.9vh;
     font-weight: 600;
@@ -164,14 +164,14 @@ header #main-button{
 }
 
 #user .card,
-#professional .card{
+#professional .card {
     margin-left: 3vw;
     margin-right: 3vw;
     border-color: transparent;
     background-color: transparent;
 }
 
-.titulo-services{
+.titulo-services {
     text-align: left;
     font-weight: bold;
     font-size: 5.5vh;
@@ -181,7 +181,7 @@ header #main-button{
 }
 
 #professional img,
-#user img{
+#user img {
     height: 42vh;
 }
 
@@ -193,11 +193,11 @@ header #main-button{
     text-align: center;
 }
 
-#botoes-home a{
+#botoes-home a {
     margin-right: 4%;
 }
 
-.btn-ligth{
+.btn-ligth {
     border-radius: 3;
     width: 60%;
     height: 52;
@@ -205,7 +205,7 @@ header #main-button{
     color: #FFFFFF;
 }
 
-.btn-gray{
+.btn-gray {
     border-radius: 3;
     width: 60%;
     height: 52;
@@ -214,13 +214,13 @@ header #main-button{
 }
 
 .btn-gray:hover,
-.btn-ligth:hover{
+.btn-ligth:hover {
     background-color: #422f33;
     color: white;
 }
 
 #working-late,
-#barber{
+#barber {
     width: 40vw;
     margin-top: 25vh;
     margin-bottom: 25vh;
@@ -228,7 +228,7 @@ header #main-button{
 
 /*Section Sobre */
 
-#explanation{
+#explanation {
     padding-top: 3%;
     text-align: left;
     font-size: 3.2vh;
@@ -238,36 +238,36 @@ header #main-button{
 
 /*Section Contato */
 
-#envelope{
+#envelope {
     width: 100%;
     margin-top: 22%;
     margin-bottom: 25%;
 }
 
-#contato .titulo{
+#contato .titulo {
     margin-bottom: 5%;
 }
 
-#contato .formulario{
+#contato .formulario {
     width: 95%;
     margin-top: 22%;
 }
 
-#contato .form-group{
-  font-size: 20px;
-  margin-bottom: 30px;
-  color: #422f33;
+#contato .form-group {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #422f33;
 }
 
 
-form .btn-ligth{
+form .btn-ligth {
     width: 100%;
 }
 
 
 /* Section Login */
 
-#login{
+#login {
     background-image: url('../image/background-transp1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,30 +281,30 @@ i {
     color: gray;
 }
 
-.form-group{
+.form-group {
     font-size: 20px;
     color: #422f33;
 }
 
 #recuperar-senha,
 #cadastrar,
-#conexao{
+#conexao {
     font-size: 20px;
     color: #422f33;
 }
 
-#manter-conectado-texto{
+#manter-conectado-texto {
     font-size: 18px;
     color: #422f33;
 }
 
-#conexao{
-    margin-top:5%;
+#conexao {
+    margin-top: 5%;
     margin-bottom: 5%;
 }
 
 
-.formulario{
+.formulario {
     width: 85%;
     margin-top: 8%;
     margin-bottom: 10%;
@@ -312,7 +312,7 @@ i {
 
 /* Section Cadastro */
 
-#cadastro{
+#cadastro {
     background-image: url('../image/background-transp1.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -323,26 +323,26 @@ i {
 
 #cadastrado,
 #termos,
-#promocoes{
+#promocoes {
     font-size: 20px;
     color: #422f33;
 }
 
 #aceito-termos-texto,
-#aceito-promocoes-texto{
+#aceito-promocoes-texto {
     font-size: 20px;
     color: #422f33;
 }
 
 #termos,
-#promocoes{
-    margin-top:3%;
+#promocoes {
+    margin-top: 3%;
     margin-bottom: 3%;
 }
 
 /* David - Barra Lateral */
 
-.menu-icons{
+.menu-icons {
     width: 2.5%;
     position: fixed;
     z-index: 10;
@@ -350,7 +350,7 @@ i {
     left: 0;
 }
 
-#side-bar{
+#side-bar {
     position: fixed;
     width: 9%;
     height: 100%;
@@ -358,11 +358,11 @@ i {
     transition: all 500ms linear;
 }
 
-#side-bar.active{
+#side-bar.active {
     left: -15%;
 }
 
-#main{
+#main {
     width: 88.5%;
     height: 100%;
     position: fixed;
@@ -371,7 +371,7 @@ i {
     transition: all 501ms linear;
 }
 
-#main.active{
+#main.active {
     width: 97.5%;
     left: 2.5%;
 
@@ -379,12 +379,12 @@ i {
 
 
 
-.shadow-1{
+.shadow-1 {
     padding: 10px;
     box-shadow: 3px 8px 4px #888888;
 }
 
-.logo-g{
+.logo-g {
     width: 2.5%;
     height: 45px;
     padding-top: 60px;
@@ -392,12 +392,12 @@ i {
     margin-right: auto;
 }
 
-.logo-g a{
+.logo-g a {
     left: 20%;
     position: absolute;
 }
 
-.logo-g a img{
+.logo-g a img {
     text-align: center;
     width: 28px;
     height: 30px;
@@ -410,13 +410,13 @@ i {
     margin-right: auto;
 }
 
-.logo-growing a img{
+.logo-growing a img {
     width: 80px;
 }
 
-.nav-icon{
+.nav-icon {
     padding-top: 100px;
-    
+
 }
 
 .nav-icon ul {
@@ -434,26 +434,26 @@ i {
 
 .nav-icon ul li a img {
     width: 20px;
-    
+
 }
 
-.nav-text{
+.nav-text {
     width: 100%;
-    padding-top:73px;
+    padding-top: 73px;
 }
 
-.nav-text ul{
+.nav-text ul {
     width: 100%;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.nav-text ul li{
+.nav-text ul li {
     padding: 10px;
 }
 
-.nav-text ul li a{
+.nav-text ul li a {
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -461,7 +461,7 @@ i {
     width: 100%;
 }
 
-.nav-text ul li a:hover{
+.nav-text ul li a:hover {
     text-decoration: none;
     color: #383737;
     font-weight: bold;
@@ -472,19 +472,19 @@ i {
 
 /* David - cabeçalho */
 
-.header-corpo{
+.header-corpo {
     width: 100%;
     position: fixed;
     z-index: 100;
 }
 
-.nav-header{
+.nav-header {
     margin-left: 14px;
     background-color: #FFFFFF;
     height: 54px;
 }
 
-.search-header{
+.search-header {
     width: 500px;
     border: solid 2px #9F6F78;
     border-radius: 7px;
@@ -495,25 +495,25 @@ i {
     background-color: transparent;
     margin-right: 3px;
     padding-right: 3px;
-    
+
 }
 
-.search-header input{
+.search-header input {
     border: none;
     width: 430px;
     margin-left: 3px;
 }
 
-#icon-search{
+#icon-search {
     width: 28px;
     height: 26px;
 }
 
-.nav-header-menu{
+.nav-header-menu {
     width: 100%;
 }
 
-.nav-header-menu ul{
+.nav-header-menu ul {
     width: 100%;
     margin-left: 0;
     padding-left: 0;
@@ -525,20 +525,20 @@ i {
     display: inline;
 }
 
-.nav-header-menu ul li a img{
+.nav-header-menu ul li a img {
     width: 22px;
     height: 22px;
 }
 
 
-.usuario-header{
+.usuario-header {
     font-weight: bold;
     color: #9F6F78;
     text-decoration: none;
     font-size: 12px;
 }
 
-.usuario-header-div{
+.usuario-header-div {
     width: 32px;
     height: 32px;
     border-radius: 100%;
@@ -551,21 +551,21 @@ i {
 
 /* David - Feed geral  */
 
-.criar-publicacoes{
+.criar-publicacoes {
     margin-top: 90px;
     margin-left: auto;
     margin-right: auto;
     width: 800px;
 }
 
-.publicacoes{
+.publicacoes {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 800px;
 }
 
-.criar-publicacoes hr{
+.criar-publicacoes hr {
     background-color: #F8ECEC;
     margin-top: 0;
     margin-bottom: 3px;
@@ -575,20 +575,20 @@ i {
     margin-bottom: 0;
 }
 
-.textarea-publicacoes{
+.textarea-publicacoes {
     width: 100%;
     height: 54px;
 
 }
 
-#criar-publicacao{
+#criar-publicacao {
     background-color: #FFFFFF;
     height: 123px;
     width: 800px;
-    
+
 }
 
-.publicacao{
+.publicacao {
     background-color: #FFFFFF;
     height: auto;
     width: 800px;
@@ -596,42 +596,42 @@ i {
     margin-bottom: 5px;
 }
 
-.publicacao-row{
+.publicacao-row {
     padding: 10px;
 }
 
-.publicacao span{
+.publicacao span {
     font-size: 20pt;
 }
 
-.menu-share{
+.menu-share {
     text-align: center;
 }
 
-.menu-share img{
+.menu-share img {
     width: 35px;
     height: 32px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.menu-status-puplic{
+.menu-status-puplic {
     text-align: end;
     list-style: none;
 }
 
-.menu-status-puplic li{
+.menu-status-puplic li {
     display: inline;
     padding-left: 10px;
 }
 
-.menu-status-puplic li a{
+.menu-status-puplic li a {
     font-size: 9pt;
     text-decoration: none;
-    color:#383737;
+    color: #383737;
 }
 
-.menu-status-puplic li a img{
+.menu-status-puplic li a img {
     width: 18px;
     height: 15px;
 }
@@ -643,7 +643,7 @@ i {
     right: 0px;
 }
 
-.avatar-publicacoes{
+.avatar-publicacoes {
     border-radius: 100%;
     width: 54px;
     height: 54px;
@@ -654,7 +654,7 @@ i {
     background-repeat: no-repeat;
 }
 
-.button-share-photo{
+.button-share-photo {
     width: 136px;
     height: 29px;
     border-radius: 10px;
@@ -664,12 +664,12 @@ i {
     font-size: 15px;
 }
 
-.button-share-photo img{
+.button-share-photo img {
     width: 22px;
     height: 22px;
 }
 
-.button-enviar-publicacao{
+.button-enviar-publicacao {
     width: 136px;
     height: 29px;
     border-radius: 10px;
@@ -679,12 +679,12 @@ i {
     font-size: 15px;
 }
 
-.button-enviar-publicacao img{
+.button-enviar-publicacao img {
     width: 22px;
     height: 22px;
 }
 
-.propagandas{
+.propagandas {
     margin-top: 90px;
     margin-right: 40px;
     width: 387;
@@ -692,28 +692,28 @@ i {
     background-color: #FFFFFF;
 }
 
-.propagandas h3{
+.propagandas h3 {
     margin-top: 10px;
     color: #FFFFFF;
 }
 
-#cabecalho-propagandas{
+#cabecalho-propagandas {
     height: 60px;
 }
 
-#cabecalho-propagandas img{
+#cabecalho-propagandas img {
     margin-top: 10px;
     width: 45px;
     height: 45px;
 }
 
-.anuncio img{
+.anuncio img {
     width: 100%;
     height: 187px;
 
 }
 
-.anuncio button{
+.anuncio button {
     width: 100%;
     height: 41px;
     border: solid 2px #9F6F78;
@@ -724,46 +724,46 @@ i {
 
 /* David Chat - Inbox */
 
-.contatos-chat{
+.contatos-chat {
     margin-top: 80px;
     overflow: auto;
     height: 80vh;
 }
 
-.card-mensagem{
+.card-mensagem {
     padding: 15px;
 }
 
-.balao-mensagens{
+.balao-mensagens {
     margin: 4px;
     border-radius: 5px;
     width: 380px;
     height: 80px;
 }
 
-.card-mensagem textarea{
+.card-mensagem textarea {
     width: 100%;
     height: auto;
 }
 
-.contato-span{
+.contato-span {
     color: #383737;
     font-size: 15pt;
 }
 
-.email-span{
+.email-span {
     color: #888888;
     font-size: 10pt;
 }
 
-.overflow-chat{
+.overflow-chat {
     margin-top: 70px;
     height: 75vh;
     width: 930px;
     overflow: auto;
 }
 
-.corpo-chat{
+.corpo-chat {
     padding: 5px;
     border: solid 1px hsl(0, 9%, 94%);
     background-color: #FFFFFF;
@@ -775,10 +775,11 @@ i {
     border-top: solid 2px #F3EDEE;
     background-color: hsl(0, 7%, 94%);
     height: 15vh;
-    width: 900px;;
+    width: 900px;
+    ;
 }
 
-.avatar-chat{
+.avatar-chat {
     border-radius: 100%;
     width: 54px;
     height: 54px;
@@ -792,21 +793,21 @@ i {
 
 /* Seção Home */
 
-#home{
+#home {
     background-image: url('../image/background-transp1.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
 
-.logo-horizontal{
+.logo-horizontal {
     width: 200px;
     padding-top: 15%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.frase-meio{
+.frase-meio {
     width: 270px;
     padding-top: 17px;
     margin-left: auto;
@@ -822,13 +823,13 @@ i {
     text-align: center;
 }
 
-.botoes-home button{
+.botoes-home button {
     margin: 5px;
 }
 
 /* Seção sobre */
 
-#sobre{
+#sobre {
     height: 100vh;
 }
 
@@ -850,7 +851,7 @@ i {
 
 /* Cadastro */
 
-#cadastro{
+#cadastro {
     background-image: url('../image/background-transp1.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -863,106 +864,130 @@ i {
     height: 285px;
     margin-top: 60px;
 }
+
 .perfilHeader .card-title {
     font-weight: bold;
 }
+
 .perfilHeader div p {
-  font-size: 1.15rem;
+    font-size: 1.15rem;
 }
+
 .perfilHeader .card-img {
     height: 283px;
 }
- .profilePic img {
+
+.profilePic img {
     width: 55%;
     border-radius: 100%;
- }
- /* Perfil Consumidor _incompleto */
- .botoes {
-     width: -8px;
-     display: inline-flex;
- }
- .meuBotao {
-     color: #9F6F78;
-     background-color: #FFFFFF;
-     border: solid 2px #9F6F78;
-     border-radius: 30px;
-     display: inline-flex;
- }
- /* Perfil Consumidor */
- .infoLogo {
-     width: 11%;
- }
- .cartao {
-     border: solid 2px #9F6F78;
-     max-height: 260px;
- }
- .s1 {
-     text-align: center; 
-     font-weight: bold;
-     font-size: 36px;
-     color: #9F6F78;
- }
- .s2 {
-     border-right: solid 1px #9F6F78;
-     display: inline-flex;
-     text-align: center;
-     padding-right: 2px; 
-     margin-left: 2px;
- }
- .s3 {
-     display: inline-flex;
-     text-align: center; 
-     margin-left: 2px;
- }
- .logoA img {
+}
+
+/* Perfil Consumidor _incompleto */
+.botoes {
+    width: -8px;
+    display: inline-flex;
+}
+
+.meuBotao {
+    color: #9F6F78;
+    background-color: #FFFFFF;
+    border: solid 2px #9F6F78;
+    border-radius: 30px;
+    display: inline-flex;
+}
+
+/* Perfil Consumidor */
+.infoLogo {
+    width: 11%;
+}
+
+.cartao {
+    border: solid 2px #9F6F78;
+    max-height: 260px;
+}
+
+.s1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #9F6F78;
+}
+
+.s2 {
+    border-right: solid 1px #9F6F78;
+    display: inline-flex;
+    text-align: center;
+    padding-right: 2px;
+    margin-left: 2px;
+}
+
+.s3 {
+    display: inline-flex;
+    text-align: center;
+    margin-left: 2px;
+}
+
+.logoA img {
     width: 4vw;
- }
- /* .botPromo {
+}
+
+/* .botPromo {
     width: 20%; 
     margin-top: 6px; 
     margin-left: 634px;
 } */
 .alinhaTexto {
     margin-top: 50px;
-    font-weight: bold; 
+    font-weight: bold;
 }
+
 #alinhaTexto2 {
     margin-top: 50px;
-    font-weight: bold; 
+    font-weight: bold;
 }
+
 .trocarLayout a:link {
-   color: black;
+    color: black;
 }
-.trocarLayout a:visited, a:hover, a:active {
+
+.trocarLayout a:visited,
+a:hover,
+a:active {
     color: black;
     text-decoration: underline #9F6F78;
 }
+
 .cartaoCarrosel {
     width: 25%;
     margin-top: 25px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
+
 .estiloColuna {
-    background-color: #9F6F78; 
+    background-color: #9F6F78;
 }
+
 .estiloColuna img {
     width: 4vw;
 }
+
 .cartaoCarroselD {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
 }
+
 .fotoDepoimento {
-    width: 4vw; 
+    width: 4vw;
     border-radius: 100%;
 }
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  filter: invert(1);
+    filter: invert(1);
 }
- 
- /* Fim perfil usuarios */
 
- /*Comeco calendario e Agenda - Mike -*/
+/* Fim perfil usuarios */
+
+/*Comeco calendario e Agenda - Mike -*/
 
 .alternar-pagina {
     text-align: right;
@@ -978,7 +1003,7 @@ i {
     color: #FFFFFF;
 }
 
-.alinhar-lateral{
+.alinhar-lateral {
     align-self: stretch;
 }
 
@@ -1017,6 +1042,25 @@ i {
     background-color: transparent;
 }
 
+.agendaPic img {
+    width: 3vw;
+    border-radius: 100%;
+}
+
+.item-agenda {
+    margin: 10px 0px;
+    font-size: 12px;
+    color: #383737;
+}
+
+.item-agenda:hover {
+    color: #4D3539;
+    font-weight: bold;
+}
+
+.separa-item{
+    margin: 1vh 0vh;
+}
 .servico-listado {
     color: #383737;
     align-content: center;
@@ -1028,6 +1072,10 @@ i {
 
 .segura-section2 {
     margin-top: 70px;
+}
+
+.titulo-destaque{
+    text-decoration: underline #9F6F78;
 }
 
 /*teste tabela ini - Mike*/
@@ -1095,409 +1143,410 @@ span.number {
 
 /* Navegadores menores */
 
-@media (max-width: 1440px){
+@media (max-width: 1440px) {
 
 
-    .header-corpo{
+    .header-corpo {
         width: 100%;
         position: fixed;
         z-index: 100;
     }
 
-.logo-g{
-    width: 2.5%;
-    height: 45px;
-    padding-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    .logo-g {
+        width: 2.5%;
+        height: 45px;
+        padding-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-g a {
+        left: 15%;
+        position: absolute;
+    }
+
+    .logo-g a img {
+        text-align: center;
+        width: 26px;
+        height: 29px;
+    }
+
+
+    .nav-icon ul {
+        list-style: none;
+        margin-left: -3px;
+        padding-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .avatar-hd-sm {
+        width: 18%;
+        position: fixed;
+        right: 1px;
+    }
+
+    /* David - Feed geral  */
+
+    .criar-publicacoes {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+
+    .publicacoes {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 650px;
+    }
+
+    .criar-publicacoes hr {
+        background-color: #F8ECEC;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .criar-publicacoes p {
+        margin-bottom: 0;
+    }
+
+    .textarea-publicacoes {
+        width: 100%;
+        height: 54px;
+
+    }
+
+    #criar-publicacao {
+        background-color: #FFFFFF;
+        height: 123px;
+        width: 800px;
+
+    }
+
+    .publicacao {
+        background-color: #FFFFFF;
+        height: auto;
+        width: 800px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .publicacao-row {
+        padding: 10px;
+    }
+
+    .publicacao span {
+        font-size: 20pt;
+    }
+
+    .menu-share {
+        text-align: center;
+    }
+
+    .menu-share img {
+        width: 25px;
+        height: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-status-puplic {
+        text-align: end;
+        list-style: none;
+    }
+
+    .menu-status-puplic li {
+        display: inline;
+        padding-left: 10px;
+    }
+
+    .menu-status-puplic li a {
+        font-size: 9pt;
+        text-decoration: none;
+        color: #383737;
+    }
+
+    .menu-status-puplic li a img {
+        width: 18px;
+        height: 15px;
+    }
+
+
+    .avatar-publicacoes {
+        border-radius: 100%;
+        width: 54px;
+        height: 54px;
+        background-image: url("../image/avatares/perfil-quatro.jpg");
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 80px;
+        background-repeat: no-repeat;
+    }
+
+    .button-share-photo {
+        width: 136px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 15px;
+    }
+
+    .button-share-photo img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .button-enviar-publicacao {
+        width: 136px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 15px;
+    }
+
+    .button-enviar-publicacao img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .propagandas {
+        margin-top: 90px;
+        margin-right: 40px;
+        width: 387;
+        height: 1900px;
+        background-color: #FFFFFF;
+    }
+
+    .propagandas h3 {
+        font-size: 15pt;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+
+    #cabecalho-propagandas {
+        height: 60px;
+    }
+
+    #cabecalho-propagandas img {
+        margin-top: 10px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .anuncio img {
+        width: 100%;
+        height: 187px;
+
+    }
+
+    .anuncio button {
+        width: 100%;
+        height: 41px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        display: block;
+    }
+
 }
 
-.logo-g a{
-    left: 15%;
-    position: absolute;
-}
+@media (max-width: 1400px) {
 
-.logo-g a img{
-    text-align: center;
-    width: 26px;
-    height: 29px;
-}
-
-
-.nav-icon ul {
-    list-style: none;
-    margin-left: -3px;
-    padding-left: 0;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-.avatar-hd-sm {
-    width: 18%;
-    position: fixed;
-    right: 1px;
-}
-
-/* David - Feed geral  */
-
-.criar-publicacoes{
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 650px;
-}
-
-.publicacoes{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 650px;
-}
-
-.criar-publicacoes hr{
-    background-color: #F8ECEC;
-    margin-top: 0;
-    margin-bottom: 3px;
-}
-
-.criar-publicacoes p {
-    margin-bottom: 0;
-}
-
-.textarea-publicacoes{
-    width: 100%;
-    height: 54px;
-
-}
-
-#criar-publicacao{
-    background-color: #FFFFFF;
-    height: 123px;
-    width: 800px;
-    
-}
-
-.publicacao{
-    background-color: #FFFFFF;
-    height: auto;
-    width: 800px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.publicacao-row{
-    padding: 10px;
-}
-
-.publicacao span{
-    font-size: 20pt;
-}
-
-.menu-share{
-    text-align: center;
-}
-
-.menu-share img{
-    width: 25px;
-    height: 23px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-status-puplic{
-    text-align: end;
-    list-style: none;
-}
-
-.menu-status-puplic li{
-    display: inline;
-    padding-left: 10px;
-}
-
-.menu-status-puplic li a{
-    font-size: 9pt;
-    text-decoration: none;
-    color:#383737;
-}
-
-.menu-status-puplic li a img{
-    width: 18px;
-    height: 15px;
-}
-
-
-.avatar-publicacoes{
-    border-radius: 100%;
-    width: 54px;
-    height: 54px;
-    background-image: url("../image/avatares/perfil-quatro.jpg");
-    background-color: #9F6F78;
-    background-position: center;
-    background-size: 80px;
-    background-repeat: no-repeat;
-}
-
-.button-share-photo{
-    width: 136px;
-    height: 29px;
-    border-radius: 10px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    font-size: 15px;
-}
-
-.button-share-photo img{
-    width: 22px;
-    height: 22px;
-}
-
-.button-enviar-publicacao{
-    width: 136px;
-    height: 29px;
-    border-radius: 10px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    font-size: 15px;
-}
-
-.button-enviar-publicacao img{
-    width: 22px;
-    height: 22px;
-}
-
-.propagandas{
-    margin-top: 90px;
-    margin-right: 40px;
-    width: 387;
-    height: 1900px;
-    background-color: #FFFFFF;
-}
-
-.propagandas h3{
-    font-size: 15pt;
-    margin-top: 10px;
-    color: #FFFFFF;
-}
-
-#cabecalho-propagandas{
-    height: 60px;
-}
-
-#cabecalho-propagandas img{
-    margin-top: 10px;
-    width: 45px;
-    height: 45px;
-}
-
-.anuncio img{
-    width: 100%;
-    height: 187px;
-
-}
-
-.anuncio button{
-    width: 100%;
-    height: 41px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    display: block;
-}
-
-}
-
-@media (max-width: 1400px){
-
-    .header-corpo{
+    .header-corpo {
         width: 100%;
         position: fixed;
         z-index: 100;
     }
 
-    
-.nav-icon ul {
-    list-style: none;
-    margin-left: -3px;
-    padding-left: 0;
-    margin-right: auto;
-    padding-right: 0;
+
+    .nav-icon ul {
+        list-style: none;
+        margin-left: -3px;
+        padding-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .logo-g {
+        width: 2.5%;
+        height: 45px;
+        padding-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-g a {
+        left: 15%;
+        position: absolute;
+    }
+
+    .logo-g a img {
+        text-align: center;
+        width: 26px;
+        height: 29px;
+    }
+
+
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 1px;
+    }
 }
 
-.logo-g{
-    width: 2.5%;
-    height: 45px;
-    padding-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.logo-g a{
-    left: 15%;
-    position: absolute;
-}
+@media (max-width: 1200px) {
 
-.logo-g a img{
-    text-align: center;
-    width: 26px;
-    height: 29px;
-}
-
-
-.avatar-hd-sm {
-    width: 20%;
-    position: fixed;
-    right: 1px;
-}
-}
-
-
-@media (max-width: 1200px){
-
-    .header-corpo{
+    .header-corpo {
         width: 100%;
         position: fixed;
         z-index: 100;
     }
 
-.logo-g{
-    width: 2.5%;
-    height: 45px;
-    padding-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    .logo-g {
+        width: 2.5%;
+        height: 45px;
+        padding-top: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-.logo-g a{
-    left: 15%;
-    position: absolute;
-}
+    .logo-g a {
+        left: 15%;
+        position: absolute;
+    }
 
-.logo-g a img{
-    text-align: center;
-    width: 26px;
-    height: 29px;
-}
-
-
-.menu-icons{
-    width: 2.8%;
-    position: fixed;
-    z-index: 10;
-    height: 100%;
-    left: 0;
-}
-
-.nav-icon ul {
-    list-style: none;
-    margin-left: -3px;
-    padding-left: 0;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-#side-bar{
-    position: fixed;
-    width: 9%;
-    height: 100%;
-    left: 2.8%;
-    transition: all 500ms linear;
-}
-
-#side-bar.active{
-    left: -18%;
-}
-
-#main{
-    width: 88.5%;
-    height: 100%;
-    position: fixed;
-    left: 11.5%;
-    overflow: auto;
-    transition: all 501ms linear;
-}
-
-#main.active{
-    width: 97.5%;
-    left: 2.5%;
-
-}
+    .logo-g a img {
+        text-align: center;
+        width: 26px;
+        height: 29px;
+    }
 
 
-.avatar-hd-sm {
-    width: 20%;
-    position: fixed;
-    right: 1px;
-}
+    .menu-icons {
+        width: 2.8%;
+        position: fixed;
+        z-index: 10;
+        height: 100%;
+        left: 0;
+    }
 
-/* David Chat - Inbox */
+    .nav-icon ul {
+        list-style: none;
+        margin-left: -3px;
+        padding-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+    }
 
-.contatos-chat{
-    margin-top: 80px;
-    overflow: auto;
-    height: 80vh;
-}
+    #side-bar {
+        position: fixed;
+        width: 9%;
+        height: 100%;
+        left: 2.8%;
+        transition: all 500ms linear;
+    }
 
-.card-mensagem{
-    padding: 15px;
-}
+    #side-bar.active {
+        left: -18%;
+    }
 
-.balao-mensagens{
-    margin: 4px;
-    border-radius: 5px;
-    width: 300px;
-    height: 80px;
-    font-size: 10pt;
-}
+    #main {
+        width: 88.5%;
+        height: 100%;
+        position: fixed;
+        left: 11.5%;
+        overflow: auto;
+        transition: all 501ms linear;
+    }
 
-.card-mensagem textarea{
-    width: 100%;
-    height: auto;
-}
+    #main.active {
+        width: 97.5%;
+        left: 2.5%;
 
-.contato-span{
-    color: #383737;
-    font-size: 12pt;
-}
+    }
 
-.email-span{
-    color: #888888;
-    font-size: 9pt;
-}
 
-.overflow-chat{
-    margin-top: 70px;
-    height: 75vh;
-    width: 780px;
-    overflow: auto;
-}
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 1px;
+    }
 
-.corpo-chat{
-    padding: 5px;
-    border: solid 1px hsl(0, 9%, 94%);
-    background-color: #FFFFFF;
-    height: 100vh;
-    width: 770px;
-}
+    /* David Chat - Inbox */
 
-.mensage-send {
-    border-top: solid 2px #F3EDEE;
-    background-color: hsl(0, 7%, 94%);
-    height: 15vh;
-    width: 780px;;
-}
+    .contatos-chat {
+        margin-top: 80px;
+        overflow: auto;
+        height: 80vh;
+    }
+
+    .card-mensagem {
+        padding: 15px;
+    }
+
+    .balao-mensagens {
+        margin: 4px;
+        border-radius: 5px;
+        width: 300px;
+        height: 80px;
+        font-size: 10pt;
+    }
+
+    .card-mensagem textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .contato-span {
+        color: #383737;
+        font-size: 12pt;
+    }
+
+    .email-span {
+        color: #888888;
+        font-size: 9pt;
+    }
+
+    .overflow-chat {
+        margin-top: 70px;
+        height: 75vh;
+        width: 780px;
+        overflow: auto;
+    }
+
+    .corpo-chat {
+        padding: 5px;
+        border: solid 1px hsl(0, 9%, 94%);
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 770px;
+    }
+
+    .mensage-send {
+        border-top: solid 2px #F3EDEE;
+        background-color: hsl(0, 7%, 94%);
+        height: 15vh;
+        width: 780px;
+        ;
+    }
 
 }
 
 /*  Dispositivos Móveis */
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
 
     #landing-home {
         max-height: 550px;
     }
-    
+
     #sobre {
         max-height: 570px;
     }
@@ -1509,23 +1558,23 @@ span.number {
     #user {
         max-height: 810px;
     }
-    
-    .menu-icons{
+
+    .menu-icons {
         width: 5%;
         position: fixed;
         z-index: 10;
         height: 100%;
         left: 0;
     }
-    
-    
-    .logo-g a img{
+
+
+    .logo-g a img {
         width: 25px;
         margin-left: 5px;
         margin-right: auto;
     }
-    
-    #side-bar{
+
+    #side-bar {
         position: fixed;
         left: -50%;
         width: 20%;
@@ -1533,892 +1582,99 @@ span.number {
         height: 100%;
         transition: all 500ms linear;
     }
-    
-    #side-bar.active{
+
+    #side-bar.active {
         left: 5%;
     }
-    
-    
-    #main{
+
+
+    #main {
         width: 95%;
-        left: 5%;   
+        left: 5%;
         height: 100%;
         position: fixed;
         transition: all 501ms linear;
     }
-    
-    #main.active{
+
+    #main.active {
         width: 95%;
-        left: 5%;  
-    
-    } 
-    
-    
-    .search-header{
+        left: 5%;
+
+    }
+
+
+    .search-header {
         width: 250px;
         border: solid 2px #9F6F78;
         border-radius: 7px;
     }
-    
+
     .search-header button {
         border: none;
         background-color: transparent;
         margin-right: 3px;
         padding-right: 3px;
-        
+
     }
-    
-    .search-header input{
+
+    .search-header input {
         border: none;
         width: 195px;
         margin-left: 3px;
     }
-    
-    #icon-search{
+
+    #icon-search {
         width: 28px;
         height: 26px;
     }
-    
-/*     
+
+    /*     
     .nav-header-menu{
         display: none;
     } */
-    
 
-    
-/* David - Feed geral  */
 
-.criar-publicacoes{
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-}
 
-.publicacoes{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-}
-
-.criar-publicacoes hr{
-    background-color: #F8ECEC;
-    margin-top: 0;
-    margin-bottom: 3px;
-}
-
-.criar-publicacoes p {
-    margin-bottom: 0;
-}
-
-.textarea-publicacoes{
-    width: 100%;
-    height: 54px;
-
-}
-
-#criar-publicacao{
-    background-color: #FFFFFF;
-    height: 123px;
-    width: 800px;
-    
-}
-
-.publicacao{
-    background-color: #FFFFFF;
-    height: auto;
-    width: 800px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-
-.publicacao-row img{
-    width: 100%;
-    height: 400px;
-}
-
-.publicacao-row{
-    padding: 10px;
-}
-
-.publicacao span{
-    font-size: 20pt;
-}
-
-.menu-share{
-    text-align: center;
-}
-
-.menu-share img{
-    width: 25px;
-    height: 23px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-status-puplic{
-    text-align: end;
-    list-style: none;
-}
-
-.menu-status-puplic li{
-    display: inline;
-    padding-left: 10px;
-}
-
-.menu-status-puplic li a{
-    font-size: 9pt;
-    text-decoration: none;
-    color:#383737;
-}
-
-.menu-status-puplic li a img{
-    width: 18px;
-    height: 15px;
-}
-
-
-.avatar-publicacoes{
-    border-radius: 100%;
-    width: 54px;
-    height: 54px;
-    background-image: url("../image/avatares/perfil-quatro.jpg");
-    background-color: #9F6F78;
-    background-position: center;
-    background-size: 80px;
-    background-repeat: no-repeat;
-}
-
-.button-share-photo{
-    width: 100px;
-    height: 29px;
-    border-radius: 10px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    font-size: 10px;
-}
-
-.button-share-photo img{
-    width: 20px;
-    height: 20px;
-}
-
-.button-enviar-publicacao{
-    width: 100px;
-    height: 29px;
-    border-radius: 10px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    font-size: 10px;
-}
-
-.button-enviar-publicacao img{
-    width: 20px;
-    height: 20px;
-}
-
-.propagandas{
-    margin-top: 90px;
-    margin-right: 40px;
-    width: 387;
-    height: 1900px;
-    background-color: #FFFFFF;
-}
-
-.propagandas h3{
-    font-size: 9pt;
-    margin-left: 15px;
-    margin-top: 10px;
-    color: #FFFFFF;
-}
-
-#cabecalho-propagandas{
-    height: 60px;
-}
-
-#cabecalho-propagandas img{
-    margin-top: 10px;
-    width: 45px;
-    height: 45px;
-}
-
-.anuncio img{
-    width: 100%;
-    height: 120px;
-
-}
-
-.anuncio button{
-    width: 100%;
-    height: 41px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    display: block;
-}
-
-
-    .usuario-header {
-        display: none;
-    }
-    
-    .search-input-sm{
-        width: 70%;
-    }
-    
-    .avatar-hd-sm {
-        width: 20%;
-        position: fixed;
-        right: 2px;
-    }
-
-    /* David Chat - Inbox */
-
-.contatos-chat{
-    margin-top: 80px;
-    overflow: auto;
-    height: 80vh;
-}
-
-.card-mensagem{
-    padding: 15px;
-}
-
-.balao-mensagens{
-    margin: 4px;
-    border-radius: 5px;
-    width: 300px;
-    height: 80px;
-    font-size: 10pt;
-}
-
-.card-mensagem textarea{
-    width: 100%;
-    height: auto;
-}
-
-.contato-span{
-    color: #383737;
-    font-size: 10pt;
-}
-
-.email-span{
-    color: #888888;
-    font-size: 8pt;
-}
-
-.overflow-chat{
-    margin-top: 70px;
-    height: 75vh;
-    width: 710px;
-    overflow: auto;
-}
-
-.corpo-chat{
-    padding: 5px;
-    border: solid 1px hsl(0, 9%, 94%);
-    background-color: #FFFFFF;
-    height: 150vh;
-    width: 700px;
-}
-
-.mensage-send {
-    border-top: solid 2px #F3EDEE;
-    background-color: hsl(0, 7%, 94%);
-    height: 15vh;
-    width: 710px;;
-}
-
-.avatar-chat{
-    border-radius: 100%;
-    width: 34px;
-    height: 34px;
-    background-image: url(../image/avatares/perfil-quatro.jpg);
-    background-color: #9F6F78;
-    background-position: center;
-    background-size: 70px;
-    background-repeat: no-repeat;
-}
-
-/* Amanda - Perfil Usuarios 1000px */
-.logoA img {
-    width: 5vw;
-}
-
-/* Mike - Calendario e Agenda*/
-
-.alinhaTexto3,
-.alinhaTexto4{
-    font-size: 18px;
-}
-
-.alinhaTexto3 h6{
-    font-size: 16px;
-}
-    
-}
-
-@media (max-width: 720px){
-    
-.menu-icons{
-    width: 10%;
-    position: fixed;
-    z-index: 10;
-    height: 100%;
-    left: 0;
-}
-
-.logo-g a img{
-    width: 35px;
-    height: 41px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.logo-growing a img {
-    width: 95px;
-}
-
-.nav-text ul li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 17pt;
-    display: block;
-    width: 100%;
-}
-
-#side-bar{
-    position: fixed;
-    left: -50%;
-    width: 40%;
-    z-index: 9;
-    height: 100%;
-    transition: all 500ms linear;
-}
-
-#side-bar.active{
-    left: 10%;
-}
-
-#main{
-    width: 90%;
-    left: 10%;   
-    height: 100%;
-    position: fixed;
-    transition: all 501ms linear;
-}
-
-#main.active{
-    width: 90%;
-    left: 10%;  
-
-} 
-
-.search-header{
-    width: 250px;
-    border: solid 2px #9F6F78;
-    border-radius: 7px;
-}
-
-.search-header button {
-    border: none;
-    background-color: transparent;
-    margin-right: 3px;
-    padding-right: 3px;
-}
-
-.search-header input{
-    border: none;
-    width: 195px;
-    margin-left: 3px;
-}
-
-#icon-search{
-    width: 28px;
-    height: 26px;
-}
-
-.nav-icon ul {
-    list-style: none;
-    margin-left: auto;
-    padding-left: 0;
-    margin-right: auto;
-    padding-right: 0;
-}
-
-.nav-icon ul li a img {
-    width: 35px;
-}
-
-.nav-header-menu{
-    display: none;
-}
-
-.usuario-header {
-    display: none;
-}
-
-.search-input-sm{
-    width: 70%;
-}
-
-.avatar-hd-sm {
-    width: 20%;
-    position: fixed;
-    right: 2px;
-}
-
-/* David - Feed geral  */
-
-.criar-publicacoes{
-    margin-top: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-}
-
-.publicacoes{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-}
-
-.criar-publicacoes hr{
-    background-color: #F8ECEC;
-    margin-top: 0;
-    margin-bottom: 3px;
-}
-
-.criar-publicacoes p {
-    margin-bottom: 0;
-}
-
-.textarea-publicacoes{
-    width: 100%;
-    height: 54px;
-}
-
-#criar-publicacao{
-    background-color: #FFFFFF;
-    height: 123px;
-    width: 800px;
-}
-
-.publicacao{
-    background-color: #FFFFFF;
-    height: auto;
-    width: 800px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.publicacao-row img{
-    width: 100%;
-    height: 300px;
-}
-
-.publicacao-row{
-    padding: 10px;
-}
-
-.publicacao span{
-    font-size: 20pt;
-}
-
-.menu-share{
-    text-align: center;
-}
-
-.menu-share img{
-    width: 25px;
-    height: 23px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.menu-status-puplic{
-    text-align: end;
-    list-style: none;
-}
-
-.menu-status-puplic li{
-    display: inline;
-    padding-left: 10px;
-}
-
-.menu-status-puplic li a{
-    font-size: 9pt;
-    text-decoration: none;
-    color:#383737;
-}
-
-.menu-status-puplic li a img{
-    width: 18px;
-    height: 15px;
-}
-
-.avatar-publicacoes{
-    border-radius: 100%;
-    width: 54px;
-    height: 54px;
-    background-image: url("../image/avatares/perfil-quatro.jpg");
-    background-color: #9F6F78;
-    background-position: center;
-    background-size: 80px;
-    background-repeat: no-repeat;
-}
-
-.button-share-photo{
-    width: 100px;
-    height: 29px;
-    border-radius: 10px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    font-size: 10px;
-}
-
-.button-share-photo img{
-    width: 20px;
-    height: 20px;
-}
-
-.button-enviar-publicacao{
-    width: 100px;
-    height: 29px;
-    border-radius: 10px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    font-size: 10px;
-}
-
-.button-enviar-publicacao img{
-    width: 20px;
-    height: 20px;
-}
-
-.propagandas{
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: 1900px;
-    background-color: #FFFFFF;
-}
-
-.propagandas h3{
-    font-size: 15pt;
-    margin-left: 15px;
-    margin-top: 10px;
-    color: #FFFFFF;
-}
-
-#cabecalho-propagandas{
-    height: 60px;
-}
-
-#cabecalho-propagandas img{
-    margin-top: 10px;
-    width: 45px;
-    height: 45px;
-}
-
-.anuncio img{
-    width: 100%;
-    height: 120px;
-
-}
-
-.anuncio button{
-    width: 100%;
-    height: 41px;
-    border: solid 2px #9F6F78;
-    background-color: transparent;
-    color: #9F6F78;
-    display: block;
-}
-
-/* David Chat - Inbox */
-
-.contatos-chat{
-    width: 630px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 90px;
-}
-
-.card-mensagem{
-    padding: 15px;
-}
-
-.balao-mensagens{
-    margin: 4px;
-    border-radius: 5px;
-    width: 300px;
-    height: 80px;
-    font-size: 10pt;
-}
-
-.card-mensagem textarea{
-    width: 100%;
-    height: auto;
-}
-
-.contato-span{
-    color: #383737;
-    font-size: 10pt;
-}
-
-.email-span{
-    color: #888888;
-    font-size: 8pt;
-}
-
-.overflow-chat{
-    margin-top: 20px;
-    height: 75vh;
-    width: 650px;
-    overflow: auto;
-}
-
-.corpo-chat{
-    padding: 5px;
-    border: solid 1px hsl(0, 9%, 94%);
-    background-color: #FFFFFF;
-    height: 100vh;
-    width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mensage-send {
-    border-top: solid 2px #F3EDEE;
-    background-color: hsl(0, 7%, 94%);
-    height: 15vh;
-    width: 650px;;
-}
-
-.avatar-chat{
-    border-radius: 100%;
-    width: 34px;
-    height: 34px;
-    background-image: url(../image/avatares/perfil-quatro.jpg);
-    background-color: #9F6F78;
-    background-position: center;
-    background-size: 70px;
-    background-repeat: no-repeat;
-}
-
-/* Amanda - Perfil Usuarios 720px */
-.infoLogo {
-    width: 10%;
-}
-.logoA img {
-    width: 10vw;
-}
-.cartaoCarrosel {
-    display: flex;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.fotoDepoimento {
-    width: 8vw; 
-}
-
-}
-
-/* Coloquei essa regra pra celulares pq tem alguns celulares maiores que 400px (plus exemplo) essa regra aplica melhor - _Amanda_ */
-@media (max-width: 480px) {
-    /* Amanda - Perfil Usuarios 480px */
-    .perfilHeader div p {
-        font-size: 1.12rem;
-      }
-    .profilePic img {
-        width: 82%;
-     }
-    .logoA img {
-        width: 9vw;
-    }
-    .cartaoCarrosel {
-        display: flex;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .estiloColuna img {
-        width: 10vw;
-    }
-    .fotoDepoimento {
-        width: 11vw; 
-    }
-}
-
-@media (max-width: 400px){
-    
-    .menu-icons{
-        width: 10%;
-        position: fixed;
-        z-index: 10;
-        height: 100%;
-        left: 0;
-    }
-    
-    
-    .logo-g a img{
-        width: 30px;
-        height: 38px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .logo-growing a img {
-        width: 95px;
-    }
-    
-    .nav-text ul li a {
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-        font-size: 12pt;
-        display: block;
-        width: 100%;
-    }
-    
-    #side-bar{
-        position: fixed;
-        left: -50%;
-        width: 40%;
-        z-index: 9;
-        height: 100%;
-        transition: all 500ms linear;
-    }
-    
-    #side-bar.active{
-        left: 10%;
-    }
-    
-    
-    #main{
-        width: 90%;
-        left: 10%;   
-        height: 100%;
-        position: fixed;
-        transition: all 501ms linear;
-    }
-    
-    #main.active{
-        width: 90%;
-        left: 10%;  
-    
-    } 
-    
-    
-    .search-header{
-        width: 250px;
-        border: solid 2px #9F6F78;
-        border-radius: 7px;
-    }
-    
-    .search-header button {
-        border: none;
-        background-color: transparent;
-        margin-right: 3px;
-        padding-right: 3px;
-        
-    }
-    
-    .search-header input{
-        border: none;
-        width: 195px;
-        margin-left: 3px;
-    }
-    
-    #icon-search{
-        width: 28px;
-        height: 26px;
-    }
-    
-    .nav-icon ul {
-        list-style: none;
-        margin-left: -3px;
-        padding-left: 0;
-        margin-right: auto;
-        padding-right: 0;
-    }
-    
-    .nav-icon ul li a img {
-        width: 28px;
-    }
-    
-    .nav-header-menu{
-        display: none;
-    }
-    
-    .usuario-header {
-        display: none;
-    }
-    
-    .search-input-sm{
-        width: 70%;
-    }
-    
-    .avatar-hd-sm {
-        width: 20%;
-        position: fixed;
-        right: 2px;
-    }
-    
-    
     /* David - Feed geral  */
-    
-    .criar-publicacoes{
+
+    .criar-publicacoes {
         margin-top: 90px;
         margin-left: auto;
         margin-right: auto;
-        width: 340px;
-        height: 180px;
-
+        width: 500px;
     }
-    
-    .publicacoes{
+
+    .publicacoes {
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
-        width: 340px;
+        width: 500px;
     }
-    
-    .criar-publicacoes hr{
+
+    .criar-publicacoes hr {
         background-color: #F8ECEC;
         margin-top: 0;
         margin-bottom: 3px;
     }
-    
+
     .criar-publicacoes p {
         margin-bottom: 0;
     }
-    
-    .textarea-publicacoes{
+
+    .textarea-publicacoes {
         width: 100%;
         height: 54px;
-    
+
     }
-    
-    #criar-publicacao{
+
+    #criar-publicacao {
         background-color: #FFFFFF;
-        height: 183px;
+        height: 123px;
         width: 800px;
-        
+
     }
-    
-    .publicacao{
+
+    .publicacao {
         background-color: #FFFFFF;
         height: auto;
         width: 800px;
@@ -2426,75 +1682,65 @@ span.number {
         margin-bottom: 5px;
     }
 
-    
-    .criar-public-btn{
-        width: 40%;
+
+    .publicacao-row img {
+        width: 100%;
+        height: 400px;
     }
-    
-    .publicacao-row{
+
+    .publicacao-row {
         padding: 10px;
     }
 
-    
-    .publicacao-row img{
-        width: 100%;
-        height: 200px;
-    }
-    
-    .publicacao span{
+    .publicacao span {
         font-size: 20pt;
     }
-    
-    .menu-share{
+
+    .menu-share {
         text-align: center;
     }
 
-    
-    .menu-share div{
-        width: 30%;
-    }
-    
-    .menu-share img{
+    .menu-share img {
         width: 25px;
         height: 23px;
         margin-left: auto;
         margin-right: auto;
     }
-    
-    .menu-status-puplic{
+
+    .menu-status-puplic {
         text-align: end;
         list-style: none;
     }
-    
-    .menu-status-puplic li{
+
+    .menu-status-puplic li {
         display: inline;
         padding-left: 10px;
     }
-    
-    .menu-status-puplic li a{
+
+    .menu-status-puplic li a {
         font-size: 9pt;
         text-decoration: none;
-        color:#383737;
+        color: #383737;
     }
-    
-    .menu-status-puplic li a img{
+
+    .menu-status-puplic li a img {
         width: 18px;
         height: 15px;
     }
-    
-    
-    .avatar-publicacoes{
+
+
+    .avatar-publicacoes {
         border-radius: 100%;
-        width: 34px;
-        height: 34px;
+        width: 54px;
+        height: 54px;
         background-image: url("../image/avatares/perfil-quatro.jpg");
         background-color: #9F6F78;
         background-position: center;
-        background-size: 70px;
+        background-size: 80px;
         background-repeat: no-repeat;
     }
-    
-    .button-share-photo{
+
+    .button-share-photo {
         width: 100px;
         height: 29px;
         border-radius: 10px;
@@ -2503,13 +1749,13 @@ span.number {
         color: #9F6F78;
         font-size: 10px;
     }
-    
-    .button-share-photo img{
+
+    .button-share-photo img {
         width: 20px;
         height: 20px;
     }
-    
-    .button-enviar-publicacao{
+
+    .button-enviar-publicacao {
         width: 100px;
         height: 29px;
         border-radius: 10px;
@@ -2518,45 +1764,44 @@ span.number {
         color: #9F6F78;
         font-size: 10px;
     }
-    
-    .button-enviar-publicacao img{
+
+    .button-enviar-publicacao img {
         width: 20px;
         height: 20px;
     }
-    
-    .propagandas{
-        margin-top: 30px;
-        margin-left: auto;
-        margin-right: auto;
-        width: 340px;
+
+    .propagandas {
+        margin-top: 90px;
+        margin-right: 40px;
+        width: 387;
         height: 1900px;
         background-color: #FFFFFF;
     }
-    
-    .propagandas h3{
-        font-size: 15pt;
+
+    .propagandas h3 {
+        font-size: 9pt;
         margin-left: 15px;
         margin-top: 10px;
         color: #FFFFFF;
     }
-    
-    #cabecalho-propagandas{
+
+    #cabecalho-propagandas {
         height: 60px;
     }
-    
-    #cabecalho-propagandas img{
+
+    #cabecalho-propagandas img {
         margin-top: 10px;
         width: 45px;
         height: 45px;
     }
-    
-    .anuncio img{
+
+    .anuncio img {
         width: 100%;
         height: 120px;
-    
+
     }
-    
-    .anuncio button{
+
+    .anuncio button {
         width: 100%;
         height: 41px;
         border: solid 2px #9F6F78;
@@ -2564,68 +1809,81 @@ span.number {
         color: #9F6F78;
         display: block;
     }
-    
-    /* David Chat - Inbox */
-    
-    .contatos-chat{
-        width: 630px;
-        margin-left: auto;
-        margin-right: auto;
-        height: 90px;
+
+
+    .usuario-header {
+        display: none;
     }
-    
-    .card-mensagem{
+
+    .search-input-sm {
+        width: 70%;
+    }
+
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 2px;
+    }
+
+    /* David Chat - Inbox */
+
+    .contatos-chat {
+        margin-top: 80px;
+        overflow: auto;
+        height: 80vh;
+    }
+
+    .card-mensagem {
         padding: 15px;
     }
-    
-    .balao-mensagens{
+
+    .balao-mensagens {
         margin: 4px;
         border-radius: 5px;
         width: 300px;
         height: 80px;
         font-size: 10pt;
     }
-    
-    .card-mensagem textarea{
+
+    .card-mensagem textarea {
         width: 100%;
         height: auto;
     }
-    
-    .contato-span{
+
+    .contato-span {
         color: #383737;
         font-size: 10pt;
     }
-    
-    .email-span{
+
+    .email-span {
         color: #888888;
         font-size: 8pt;
     }
-    
-    .overflow-chat{
-        margin-top: 20px;
+
+    .overflow-chat {
+        margin-top: 70px;
         height: 75vh;
-        width: 650px;
+        width: 710px;
         overflow: auto;
     }
-    
-    .corpo-chat{
+
+    .corpo-chat {
         padding: 5px;
         border: solid 1px hsl(0, 9%, 94%);
         background-color: #FFFFFF;
-        height: 100vh;
-        width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+        height: 150vh;
+        width: 700px;
     }
-    
+
     .mensage-send {
         border-top: solid 2px #F3EDEE;
         background-color: hsl(0, 7%, 94%);
         height: 15vh;
-        width: 650px;;
+        width: 710px;
+        ;
     }
-    
-    .avatar-chat{
+
+    .avatar-chat {
         border-radius: 100%;
         width: 34px;
         height: 34px;
@@ -2635,397 +1893,1201 @@ span.number {
         background-size: 70px;
         background-repeat: no-repeat;
     }
-    
+
+    /* Amanda - Perfil Usuarios 1000px */
+    .logoA img {
+        width: 5vw;
+    }
+
+    /* Mike - Calendario e Agenda*/
+
+    .alinhaTexto3,
+    .alinhaTexto4 {
+        font-size: 18px;
+    }
+
+    .alinhaTexto3 h6 {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .menu-icons {
+        width: 10%;
+        position: fixed;
+        z-index: 10;
+        height: 100%;
+        left: 0;
+    }
+
+    .logo-g a img {
+        width: 35px;
+        height: 41px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-growing a img {
+        width: 95px;
+    }
+
+    .nav-text ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 17pt;
+        display: block;
+        width: 100%;
+    }
+
+    #side-bar {
+        position: fixed;
+        left: -50%;
+        width: 40%;
+        z-index: 9;
+        height: 100%;
+        transition: all 500ms linear;
+    }
+
+    #side-bar.active {
+        left: 10%;
+    }
+
+    #main {
+        width: 90%;
+        left: 10%;
+        height: 100%;
+        position: fixed;
+        transition: all 501ms linear;
+    }
+
+    #main.active {
+        width: 90%;
+        left: 10%;
+
+    }
+
+    .search-header {
+        width: 250px;
+        border: solid 2px #9F6F78;
+        border-radius: 7px;
+    }
+
+    .search-header button {
+        border: none;
+        background-color: transparent;
+        margin-right: 3px;
+        padding-right: 3px;
+    }
+
+    .search-header input {
+        border: none;
+        width: 195px;
+        margin-left: 3px;
+    }
+
+    #icon-search {
+        width: 28px;
+        height: 26px;
+    }
+
+    .nav-icon ul {
+        list-style: none;
+        margin-left: auto;
+        padding-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .nav-icon ul li a img {
+        width: 35px;
+    }
+
+    .nav-header-menu {
+        display: none;
+    }
+
+    .usuario-header {
+        display: none;
+    }
+
+    .search-input-sm {
+        width: 70%;
+    }
+
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 2px;
+    }
+
+    /* David - Feed geral  */
+
+    .criar-publicacoes {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .publicacoes {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+    }
+
+    .criar-publicacoes hr {
+        background-color: #F8ECEC;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .criar-publicacoes p {
+        margin-bottom: 0;
+    }
+
+    .textarea-publicacoes {
+        width: 100%;
+        height: 54px;
+    }
+
+    #criar-publicacao {
+        background-color: #FFFFFF;
+        height: 123px;
+        width: 800px;
+    }
+
+    .publicacao {
+        background-color: #FFFFFF;
+        height: auto;
+        width: 800px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .publicacao-row img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .publicacao-row {
+        padding: 10px;
+    }
+
+    .publicacao span {
+        font-size: 20pt;
+    }
+
+    .menu-share {
+        text-align: center;
+    }
+
+    .menu-share img {
+        width: 25px;
+        height: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-status-puplic {
+        text-align: end;
+        list-style: none;
+    }
+
+    .menu-status-puplic li {
+        display: inline;
+        padding-left: 10px;
+    }
+
+    .menu-status-puplic li a {
+        font-size: 9pt;
+        text-decoration: none;
+        color: #383737;
+    }
+
+    .menu-status-puplic li a img {
+        width: 18px;
+        height: 15px;
+    }
+
+    .avatar-publicacoes {
+        border-radius: 100%;
+        width: 54px;
+        height: 54px;
+        background-image: url("../image/avatares/perfil-quatro.jpg");
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 80px;
+        background-repeat: no-repeat;
+    }
+
+    .button-share-photo {
+        width: 100px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 10px;
+    }
+
+    .button-share-photo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button-enviar-publicacao {
+        width: 100px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 10px;
+    }
+
+    .button-enviar-publicacao img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .propagandas {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: 1900px;
+        background-color: #FFFFFF;
+    }
+
+    .propagandas h3 {
+        font-size: 15pt;
+        margin-left: 15px;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+
+    #cabecalho-propagandas {
+        height: 60px;
+    }
+
+    #cabecalho-propagandas img {
+        margin-top: 10px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .anuncio img {
+        width: 100%;
+        height: 120px;
+
+    }
+
+    .anuncio button {
+        width: 100%;
+        height: 41px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        display: block;
+    }
+
+    /* David Chat - Inbox */
+
+    .contatos-chat {
+        width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90px;
+    }
+
+    .card-mensagem {
+        padding: 15px;
+    }
+
+    .balao-mensagens {
+        margin: 4px;
+        border-radius: 5px;
+        width: 300px;
+        height: 80px;
+        font-size: 10pt;
+    }
+
+    .card-mensagem textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .contato-span {
+        color: #383737;
+        font-size: 10pt;
+    }
+
+    .email-span {
+        color: #888888;
+        font-size: 8pt;
+    }
+
+    .overflow-chat {
+        margin-top: 20px;
+        height: 75vh;
+        width: 650px;
+        overflow: auto;
+    }
+
+    .corpo-chat {
+        padding: 5px;
+        border: solid 1px hsl(0, 9%, 94%);
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mensage-send {
+        border-top: solid 2px #F3EDEE;
+        background-color: hsl(0, 7%, 94%);
+        height: 15vh;
+        width: 650px;
+        ;
+    }
+
+    .avatar-chat {
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        background-image: url(../image/avatares/perfil-quatro.jpg);
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 70px;
+        background-repeat: no-repeat;
+    }
+
+    /* Amanda - Perfil Usuarios 720px */
+    .infoLogo {
+        width: 10%;
+    }
+
+    .logoA img {
+        width: 10vw;
+    }
+
+    .cartaoCarrosel {
+        display: flex;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fotoDepoimento {
+        width: 8vw;
+    }
+
+}
+
+/* Coloquei essa regra pra celulares pq tem alguns celulares maiores que 400px (plus exemplo) essa regra aplica melhor - _Amanda_ */
+@media (max-width: 480px) {
+
+    /* Amanda - Perfil Usuarios 480px */
+    .perfilHeader div p {
+        font-size: 1.12rem;
+    }
+
+    .profilePic img {
+        width: 82%;
+    }
+
+    .logoA img {
+        width: 9vw;
+    }
+
+    .cartaoCarrosel {
+        display: flex;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .estiloColuna img {
+        width: 10vw;
+    }
+
+    .fotoDepoimento {
+        width: 11vw;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .menu-icons {
+        width: 10%;
+        position: fixed;
+        z-index: 10;
+        height: 100%;
+        left: 0;
+    }
+
+
+    .logo-g a img {
+        width: 30px;
+        height: 38px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-growing a img {
+        width: 95px;
+    }
+
+    .nav-text ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12pt;
+        display: block;
+        width: 100%;
+    }
+
+    #side-bar {
+        position: fixed;
+        left: -50%;
+        width: 40%;
+        z-index: 9;
+        height: 100%;
+        transition: all 500ms linear;
+    }
+
+    #side-bar.active {
+        left: 10%;
+    }
+
+
+    #main {
+        width: 90%;
+        left: 10%;
+        height: 100%;
+        position: fixed;
+        transition: all 501ms linear;
+    }
+
+    #main.active {
+        width: 90%;
+        left: 10%;
+
+    }
+
+
+    .search-header {
+        width: 250px;
+        border: solid 2px #9F6F78;
+        border-radius: 7px;
+    }
+
+    .search-header button {
+        border: none;
+        background-color: transparent;
+        margin-right: 3px;
+        padding-right: 3px;
+
+    }
+
+    .search-header input {
+        border: none;
+        width: 195px;
+        margin-left: 3px;
+    }
+
+    #icon-search {
+        width: 28px;
+        height: 26px;
+    }
+
+    .nav-icon ul {
+        list-style: none;
+        margin-left: -3px;
+        padding-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .nav-icon ul li a img {
+        width: 28px;
+    }
+
+    .nav-header-menu {
+        display: none;
+    }
+
+    .usuario-header {
+        display: none;
+    }
+
+    .search-input-sm {
+        width: 70%;
+    }
+
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 2px;
+    }
+
+
+    /* David - Feed geral  */
+
+    .criar-publicacoes {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        height: 180px;
+
+    }
+
+    .publicacoes {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+    }
+
+    .criar-publicacoes hr {
+        background-color: #F8ECEC;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .criar-publicacoes p {
+        margin-bottom: 0;
+    }
+
+    .textarea-publicacoes {
+        width: 100%;
+        height: 54px;
+
+    }
+
+    #criar-publicacao {
+        background-color: #FFFFFF;
+        height: 183px;
+        width: 800px;
+
+    }
+
+    .publicacao {
+        background-color: #FFFFFF;
+        height: auto;
+        width: 800px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .criar-public-btn {
+        width: 40%;
+    }
+
+    .publicacao-row {
+        padding: 10px;
+    }
+
+
+    .publicacao-row img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .publicacao span {
+        font-size: 20pt;
+    }
+
+    .menu-share {
+        text-align: center;
+    }
+
+
+    .menu-share div {
+        width: 30%;
+    }
+
+    .menu-share img {
+        width: 25px;
+        height: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-status-puplic {
+        text-align: end;
+        list-style: none;
+    }
+
+    .menu-status-puplic li {
+        display: inline;
+        padding-left: 10px;
+    }
+
+    .menu-status-puplic li a {
+        font-size: 9pt;
+        text-decoration: none;
+        color: #383737;
+    }
+
+    .menu-status-puplic li a img {
+        width: 18px;
+        height: 15px;
+    }
+
+
+    .avatar-publicacoes {
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        background-image: url("../image/avatares/perfil-quatro.jpg");
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 70px;
+        background-repeat: no-repeat;
+    }
+
+    .button-share-photo {
+        width: 100px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 10px;
+    }
+
+    .button-share-photo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button-enviar-publicacao {
+        width: 100px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 10px;
+    }
+
+    .button-enviar-publicacao img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .propagandas {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 340px;
+        height: 1900px;
+        background-color: #FFFFFF;
+    }
+
+    .propagandas h3 {
+        font-size: 15pt;
+        margin-left: 15px;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+
+    #cabecalho-propagandas {
+        height: 60px;
+    }
+
+    #cabecalho-propagandas img {
+        margin-top: 10px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .anuncio img {
+        width: 100%;
+        height: 120px;
+
+    }
+
+    .anuncio button {
+        width: 100%;
+        height: 41px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        display: block;
+    }
+
+    /* David Chat - Inbox */
+
+    .contatos-chat {
+        width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90px;
+    }
+
+    .card-mensagem {
+        padding: 15px;
+    }
+
+    .balao-mensagens {
+        margin: 4px;
+        border-radius: 5px;
+        width: 300px;
+        height: 80px;
+        font-size: 10pt;
+    }
+
+    .card-mensagem textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .contato-span {
+        color: #383737;
+        font-size: 10pt;
+    }
+
+    .email-span {
+        color: #888888;
+        font-size: 8pt;
+    }
+
+    .overflow-chat {
+        margin-top: 20px;
+        height: 75vh;
+        width: 650px;
+        overflow: auto;
+    }
+
+    .corpo-chat {
+        padding: 5px;
+        border: solid 1px hsl(0, 9%, 94%);
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mensage-send {
+        border-top: solid 2px #F3EDEE;
+        background-color: hsl(0, 7%, 94%);
+        height: 15vh;
+        width: 650px;
+        ;
+    }
+
+    .avatar-chat {
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        background-image: url(../image/avatares/perfil-quatro.jpg);
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 70px;
+        background-repeat: no-repeat;
+    }
+
     /* Mike - Agenda e calendario*/
     .segura-section2 {
         margin-top: 0px;
     }
 
+}
+
+@media (max-width: 350px) {
+
+    .menu-icons {
+        width: 10%;
+        position: fixed;
+        z-index: 10;
+        height: 100%;
+        left: 0;
     }
 
-    @media (max-width: 350px){
-    
-        .menu-icons{
-            width: 10%;
-            position: fixed;
-            z-index: 10;
-            height: 100%;
-            left: 0;
-        }
-        
-        
-        .logo-g a img{
-            width: 27px;
-            height: 35px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .logo-growing a img {
-            width: 95px;
-        }
-        
-        .nav-text ul li a {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            font-size: 12pt;
-            display: block;
-            width: 100%;
-        }
-        
-        #side-bar{
-            position: fixed;
-            left: -50%;
-            width: 40%;
-            z-index: 9;
-            height: 100%;
-            transition: all 500ms linear;
-        }
-        
-        #side-bar.active{
-            left: 10%;
-        }
-        
-        
-        #main{
-            width: 90%;
-            left: 10%;   
-            height: 100%;
-            position: fixed;
-            transition: all 501ms linear;
-        }
-        
-        #main.active{
-            width: 90%;
-            left: 10%;  
-        
-        } 
-        
-        
-        .search-header{
-            width: 250px;
-            border: solid 2px #9F6F78;
-            border-radius: 7px;
-        }
-        
-        .search-header button {
-            border: none;
-            background-color: transparent;
-            margin-right: 3px;
-            padding-right: 3px;
-            
-        }
-        
-        .search-header input{
-            border: none;
-            width: 195px;
-            margin-left: 3px;
-        }
-        
-        #icon-search{
-            width: 28px;
-            height: 26px;
-        }
-        
-        .nav-icon ul {
-            list-style: none;
-            margin-left: -4px;
-            padding-left: 0;
-            margin-right: auto;
-            padding-right: 0;
-        }
-        
-        .nav-icon ul li a img {
-            width: 24px;
-        }
-        
-        .nav-header-menu{
-            display: none;
-        }
-        
-        .usuario-header {
-            display: none;
-        }
 
-        .usuario-header-div {
-            width: 32px;
-            height: 32px;
-            border-radius: 100%;
-            background-color: #9F6F78;
-            background-image: url(../image/icons/do-utilizador-white.png);
-            background-repeat: no-repeat;
-            background-size: 21px;
-            background-position: center;
-            margin-left: 9px;
-        }
-        
-        .search-input-sm{
-            width: 70%;
-        }
-        
-        .avatar-hd-sm {
-            width: 20%;
-            position: fixed;
-            right: 2px;
-        }
-        
-        
-        /* David - Feed geral  */
-        
-        .criar-publicacoes{
-            margin-top: 90px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 300px;
-            height: 180px;
-    
-        }
-        
-        .publicacoes{
-            margin-top: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 300px;
-        }
-        
-        .criar-publicacoes hr{
-            background-color: #F8ECEC;
-            margin-top: 0;
-            margin-bottom: 3px;
-        }
-        
-        .criar-publicacoes p {
-            font-size: 9pt;
-            margin-bottom: 0;
-        }
-        
-        .textarea-publicacoes{
-            width: 100%;
-            height: 54px;
-        
-        }
-        
-        #criar-publicacao{
-            background-color: #FFFFFF;
-            height: 183px;
-            width: 800px;
-            
-        }
+    .logo-g a img {
+        width: 27px;
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-        .criar-public-btn{
-            width: 40%;
-        }
-        
-        .publicacao{
-            background-color: #FFFFFF;
-            height: auto;
-            width: 800px;
-            margin-top: 5px;
-            margin-bottom: 5px;
-        }
-        
-        .publicacao-row{
-            padding: 10px;
-        }
-        
-        .publicacao span{
-            font-size: 15pt;
-        }
+    .logo-growing a img {
+        width: 95px;
+    }
 
-        .publicacao-row img{
-            width: 100%;
-            height: 200px;
-        }
-        
-        .menu-share{
-            text-align: center;
-        }
+    .nav-text ul li a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 12pt;
+        display: block;
+        width: 100%;
+    }
 
-        .menu-share div{
-            width: 30%;
-        }
-        
-        .menu-share img{
-            width: 25px;
-            height: 23px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .menu-status-puplic{
-            text-align: end;
-            list-style: none;
-        }
-        
-        .menu-status-puplic li{
-            display: inline;
-            padding-left: 10px;
-        }
-        
-        .menu-status-puplic li a{
-            font-size: 9pt;
-            text-decoration: none;
-            color:#383737;
-        }
-        
-        .menu-status-puplic li a img{
-            width: 18px;
-            height: 15px;
-        }
-        
-        
-        .avatar-publicacoes{
-            border-radius: 100%;
-            width: 34px;
-            height: 34px;
-            background-image: url("../image/avatares/perfil-quatro.jpg");
-            background-color: #9F6F78;
-            background-position: center;
-            background-size: 70px;
-            background-repeat: no-repeat;
-        }
-        
-        .button-share-photo{
-            width: 100px;
-            height: 29px;
-            border-radius: 10px;
-            border: solid 2px #9F6F78;
-            background-color: transparent;
-            color: #9F6F78;
-            font-size: 10px;
-        }
-        
-        .button-share-photo img{
-            width: 20px;
-            height: 20px;
-        }
-        
-        .button-enviar-publicacao{
-            width: 100px;
-            height: 29px;
-            border-radius: 10px;
-            border: solid 2px #9F6F78;
-            background-color: transparent;
-            color: #9F6F78;
-            font-size: 10px;
-        }
-        
-        .button-enviar-publicacao img{
-            width: 20px;
-            height: 20px;
-        }
-        
-        .propagandas{
-            margin-top: 30px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 300px;
-            height: 1900px;
-            background-color: #FFFFFF;
-        }
-        
-        .propagandas h3{
-            font-size: 10pt;
-            margin-left: 15px;
-            margin-top: 10px;
-            color: #FFFFFF;
-        }
-        
-        #cabecalho-propagandas{
-            height: 60px;
-        }
-        
-        #cabecalho-propagandas img{
-            margin-top: 10px;
-            width: 45px;
-            height: 45px;
-        }
-        
-        .anuncio img{
-            width: 100%;
-            height: 120px;
-        
-        }
-        
-        .anuncio button{
-            width: 100%;
-            height: 41px;
-            border: solid 2px #9F6F78;
-            background-color: transparent;
-            color: #9F6F78;
-            display: block;
-        }
-        
-        /* David Chat - Inbox */
-        
-        .contatos-chat{
-            width: 630px;
-            margin-left: auto;
-            margin-right: auto;
-            height: 90px;
-        }
-        
-        .card-mensagem{
-            padding: 15px;
-        }
-        
-        .balao-mensagens{
-            margin: 4px;
-            border-radius: 5px;
-            width: 300px;
-            height: 80px;
-            font-size: 10pt;
-        }
-        
-        .card-mensagem textarea{
-            width: 100%;
-            height: auto;
-        }
-        
-        .contato-span{
-            color: #383737;
-            font-size: 10pt;
-        }
-        
-        .email-span{
-            color: #888888;
-            font-size: 8pt;
-        }
-        
-        .overflow-chat{
-            margin-top: 20px;
-            height: 75vh;
-            width: 650px;
-            overflow: auto;
-        }
-        
-        .corpo-chat{
-            padding: 5px;
-            border: solid 1px hsl(0, 9%, 94%);
-            background-color: #FFFFFF;
-            height: 100vh;
-            width: 600px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        .mensage-send {
-            border-top: solid 2px #F3EDEE;
-            background-color: hsl(0, 7%, 94%);
-            height: 15vh;
-            width: 650px;;
-        }
-        
-        .avatar-chat{
-            border-radius: 100%;
-            width: 34px;
-            height: 34px;
-            background-image: url(../image/avatares/perfil-quatro.jpg);
-            background-color: #9F6F78;
-            background-position: center;
-            background-size: 70px;
-            background-repeat: no-repeat;
-        }
-        
-        }
+    #side-bar {
+        position: fixed;
+        left: -50%;
+        width: 40%;
+        z-index: 9;
+        height: 100%;
+        transition: all 500ms linear;
+    }
+
+    #side-bar.active {
+        left: 10%;
+    }
+
+
+    #main {
+        width: 90%;
+        left: 10%;
+        height: 100%;
+        position: fixed;
+        transition: all 501ms linear;
+    }
+
+    #main.active {
+        width: 90%;
+        left: 10%;
+
+    }
+
+
+    .search-header {
+        width: 250px;
+        border: solid 2px #9F6F78;
+        border-radius: 7px;
+    }
+
+    .search-header button {
+        border: none;
+        background-color: transparent;
+        margin-right: 3px;
+        padding-right: 3px;
+
+    }
+
+    .search-header input {
+        border: none;
+        width: 195px;
+        margin-left: 3px;
+    }
+
+    #icon-search {
+        width: 28px;
+        height: 26px;
+    }
+
+    .nav-icon ul {
+        list-style: none;
+        margin-left: -4px;
+        padding-left: 0;
+        margin-right: auto;
+        padding-right: 0;
+    }
+
+    .nav-icon ul li a img {
+        width: 24px;
+    }
+
+    .nav-header-menu {
+        display: none;
+    }
+
+    .usuario-header {
+        display: none;
+    }
+
+    .usuario-header-div {
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        background-color: #9F6F78;
+        background-image: url(../image/icons/do-utilizador-white.png);
+        background-repeat: no-repeat;
+        background-size: 21px;
+        background-position: center;
+        margin-left: 9px;
+    }
+
+    .search-input-sm {
+        width: 70%;
+    }
+
+    .avatar-hd-sm {
+        width: 20%;
+        position: fixed;
+        right: 2px;
+    }
+
+
+    /* David - Feed geral  */
+
+    .criar-publicacoes {
+        margin-top: 90px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 180px;
+
+    }
+
+    .publicacoes {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .criar-publicacoes hr {
+        background-color: #F8ECEC;
+        margin-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .criar-publicacoes p {
+        font-size: 9pt;
+        margin-bottom: 0;
+    }
+
+    .textarea-publicacoes {
+        width: 100%;
+        height: 54px;
+
+    }
+
+    #criar-publicacao {
+        background-color: #FFFFFF;
+        height: 183px;
+        width: 800px;
+
+    }
+
+    .criar-public-btn {
+        width: 40%;
+    }
+
+    .publicacao {
+        background-color: #FFFFFF;
+        height: auto;
+        width: 800px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .publicacao-row {
+        padding: 10px;
+    }
+
+    .publicacao span {
+        font-size: 15pt;
+    }
+
+    .publicacao-row img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .menu-share {
+        text-align: center;
+    }
+
+    .menu-share div {
+        width: 30%;
+    }
+
+    .menu-share img {
+        width: 25px;
+        height: 23px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .menu-status-puplic {
+        text-align: end;
+        list-style: none;
+    }
+
+    .menu-status-puplic li {
+        display: inline;
+        padding-left: 10px;
+    }
+
+    .menu-status-puplic li a {
+        font-size: 9pt;
+        text-decoration: none;
+        color: #383737;
+    }
+
+    .menu-status-puplic li a img {
+        width: 18px;
+        height: 15px;
+    }
+
+
+    .avatar-publicacoes {
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        background-image: url("../image/avatares/perfil-quatro.jpg");
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 70px;
+        background-repeat: no-repeat;
+    }
+
+    .button-share-photo {
+        width: 100px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 10px;
+    }
+
+    .button-share-photo img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .button-enviar-publicacao {
+        width: 100px;
+        height: 29px;
+        border-radius: 10px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        font-size: 10px;
+    }
+
+    .button-enviar-publicacao img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .propagandas {
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 1900px;
+        background-color: #FFFFFF;
+    }
+
+    .propagandas h3 {
+        font-size: 10pt;
+        margin-left: 15px;
+        margin-top: 10px;
+        color: #FFFFFF;
+    }
+
+    #cabecalho-propagandas {
+        height: 60px;
+    }
+
+    #cabecalho-propagandas img {
+        margin-top: 10px;
+        width: 45px;
+        height: 45px;
+    }
+
+    .anuncio img {
+        width: 100%;
+        height: 120px;
+
+    }
+
+    .anuncio button {
+        width: 100%;
+        height: 41px;
+        border: solid 2px #9F6F78;
+        background-color: transparent;
+        color: #9F6F78;
+        display: block;
+    }
+
+    /* David Chat - Inbox */
+
+    .contatos-chat {
+        width: 630px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 90px;
+    }
+
+    .card-mensagem {
+        padding: 15px;
+    }
+
+    .balao-mensagens {
+        margin: 4px;
+        border-radius: 5px;
+        width: 300px;
+        height: 80px;
+        font-size: 10pt;
+    }
+
+    .card-mensagem textarea {
+        width: 100%;
+        height: auto;
+    }
+
+    .contato-span {
+        color: #383737;
+        font-size: 10pt;
+    }
+
+    .email-span {
+        color: #888888;
+        font-size: 8pt;
+    }
+
+    .overflow-chat {
+        margin-top: 20px;
+        height: 75vh;
+        width: 650px;
+        overflow: auto;
+    }
+
+    .corpo-chat {
+        padding: 5px;
+        border: solid 1px hsl(0, 9%, 94%);
+        background-color: #FFFFFF;
+        height: 100vh;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mensage-send {
+        border-top: solid 2px #F3EDEE;
+        background-color: hsl(0, 7%, 94%);
+        height: 15vh;
+        width: 650px;
+        ;
+    }
+
+    .avatar-chat {
+        border-radius: 100%;
+        width: 34px;
+        height: 34px;
+        background-image: url(../image/avatares/perfil-quatro.jpg);
+        background-color: #9F6F78;
+        background-position: center;
+        background-size: 70px;
+        background-repeat: no-repeat;
+    }
+
+}
