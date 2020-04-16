@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/55fcd42dc6.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/palette.css">
+</head>
+
+<body>
+    <!-- Menu lateral escuro -->
+    <div class="menu-icons bg-gray-color">
+        <div class="logo-g">
+            <a href="#!" onclick="toggleSidebar()">
+                <img src="image/logo-primary.png" alt="" onclick="closeNav()">
+            </a>
+        </div>
+        <div class="nav-icon">
+            <ul>
+                <li><a href="#!"><img src="image/icons/portfolio-white.png" alt=""></a></li>
+                <li><a href="feedGeral.html"><img src="image/icons/feed-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/promocao-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/solicitacao-white.png" alt=""></a></li>
+                <li><a href="#!"><img src="image/icons/calendario-white.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Menu lateral claro -->
+    <div class="bg-primary-color" id="side-bar">
+        <div class="logo-growing">
+            <a href="#!">
+                <img src="image/growing-logo-white.png" alt="">
+            </a>
+        </div>
+        <div class="nav-text">
+            <ul>
+                <li><a href="#!">Portfólio</a></li>
+                <li><a href="feedGeral.html">Feed geral</a></li>
+                <li><a href="#!">Promoções</a></li>
+                <li><a href="#!">Solicitações</a></li>
+                <li><a href="#!">Agenda</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Main -->
+    <div class="bg-ligth-color" id="main">
+        <!-- Menu superior claro -->
+        <div class="header-corpo">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 nav-header shadow-1">
+                    <div class="row">
+                        <div class="col-md-6 search-input-sm">
+                            <form action="#!" method="post">
+                                <div class="search-header">
+                                    <input type="search" name="" id="">
+                                    <button type="submit"><img src="image/icons/procurar-primary.png" alt=""
+                                            id='icon-search'></button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="nav-header-menu">
+                                <ul>
+                                    <li><a href="#!"><img src="image/icons/calendario-gray.png" alt=""></a></li>
+                                    <li><a href="#!"><img src="image/icons/bate-papo-gray.png" alt=""></a></li>
+                                    <li><a href="#!"><img src="image/icons/sino-primary.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 avatar-hd-sm">
+                            <a href="#!">
+                                <div class="d-flex flex-row bd-highlight mb-3">
+                                    <div class="usuario-header p-2 bd-highlight">usuario@dominio.com.br</div>
+                                    <div class="usuario-header-div p-2 bd-highlight"></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- Fim do menu superior -->
+        <!-- Bloco Duplo-->
+        <section class="row">
+            <!-- Bloco col-8 -->
+            <div class="segura-section card-ag-ca col-md-8">
+                <!--Id usuario-->
+                <div>
+                    <div class="col-md-12 card-ag-ca mx-auto">
+                        <div>
+                            <div class="profilePic w-25 mr-0 d-inline-block">
+                                <img src="image/avatares/perfil-dois.jpg" alt="fotoPerfil">
+                            </div>
+                            <h5 class="d-inline-block">Calendário - Usuário Profissional</h5>
+                            <!-- Bloco Duplo-->
+                            <div class="row alternar-pagina col-md-12">
+                                <div
+                                    class="col-md-5 d-inline-block ml-md-5 pl-md-5 pr-md-0 ml-xl-auto pl-xl-5 pr-xl-0 mr-xl-0 trocarLayout">
+                                    <a href="calendario.html">
+                                        <h5 class="alinhaTexto3">Calendário</h5>
+                                    </a>
+                                </div>
+                                <div
+                                    class="col-md-5 d-inline-block ml-md-5 mr-md-0 pr-md-0 mr-xl-auto ml-xl-0 pr-xl-5 pl-xl-0 trocarLayout">
+                                    <a href="agenda.html">
+                                        <h5 class="alinhaTexto3">Agendamento</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Fim ID usuario-->
+                <!-- Bloco Titulo e Calendário -->
+                <div class="col-md-12">
+                    <!--Titulo ano-->
+                    <div>
+                        <p class="ano-titulo col-md-11">Abril 2020</p>
+                    </div>
+                    <!-- Calendário maior-->
+                    <div>
+                        <div class="col-md-12 calendario-corpo">
+                            <table>
+                                <tr>
+                                    <th class="day-name">D</th>
+                                    <th class="day-name">S</th>
+                                    <th class="day-name">T</th>
+                                    <th class="day-name">Q</th>
+                                    <th class="day-name">Q</th>
+                                    <th class="day-name">S</th>
+                                    <th class="day-name">S</th>
+                                </tr>
+                                <tr>
+                                    <td class="day nao-dia"><span class="number">31</span></td>
+                                    <td class="day"><span class="number">1</span></td>
+                                    <td class="day"><span class="number">2</span></td>
+                                    <td class="day"><span class="number">3</span></td>
+                                    <td class="day"><span class="number">4</span></td>
+                                    <td class="day"><span class="number">5</span></td>
+                                    <td class="day"><span class="number">6</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">7</span></td>
+                                    <td class="day"><span class="number">8</span></td>
+                                    <td class="day"><span class="number">9</span></td>
+                                    <td class="day"><span class="number">10</span></td>
+                                    <td class="day"><span class="number">11</span></td>
+                                    <td class="day"><span class="number">12</span></td>
+                                    <td class="day"><span class="number">13</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">14</span></td>
+                                    <td class="day"><span class="number">15</span></td>
+                                    <td class="day"><span class="number">16</span></td>
+                                    <td class="day"><span class="number">17</span></td>
+                                    <td class="day"><span class="number">18</span></td>
+                                    <td class="day"><span class="number">19</span></td>
+                                    <td class="day"><span class="number">20</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">21</span></td>
+                                    <td class="day"><span class="number">22</span></td>
+                                    <td class="day"><span class="number">23</span></td>
+                                    <td class="day"><span class="number">24</span></td>
+                                    <td class="day"><span class="number">25</span></td>
+                                    <td class="day"><span class="number">26</span></td>
+                                    <td class="day"><span class="number">27</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">28</span></td>
+                                    <td class="day today"><span class="number">29</span></td>
+                                    <td class="day"><span class="number">30</span></td>
+                                    <td class="day nao-dia"><span class="number">1</span></td>
+                                    <td class="day nao-dia"><span class="number">2</span></td>
+                                    <td class="day nao-dia"><span class="number">3</span></td>
+                                    <td class="day nao-dia"><span class="number">4</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div><!--Fim calendario maior-->
+                </div>
+                <!-- Bloco Titulo e Calendário 2 -->
+                <div class="col-md-12">
+                    <!--Titulo ano-->
+                    <div>
+                        <p class="ano-titulo col-md-11">Maio 2020</p>
+                    </div>
+                    <!-- Calendário maior-->
+                    <div>
+                        <div class="col-md-12 calendario-corpo">
+                            <table>
+                                <tr>
+                                    <th class="day-name">D</th>
+                                    <th class="day-name">S</th>
+                                    <th class="day-name">T</th>
+                                    <th class="day-name">Q</th>
+                                    <th class="day-name">Q</th>
+                                    <th class="day-name">S</th>
+                                    <th class="day-name">S</th>
+                                </tr>
+                                <tr>
+                                    <td class="day nao-dia"><span class="number">31</span></td>
+                                    <td class="day"><span class="number">1</span></td>
+                                    <td class="day"><span class="number">2</span></td>
+                                    <td class="day"><span class="number">3</span></td>
+                                    <td class="day"><span class="number">4</span></td>
+                                    <td class="day"><span class="number">5</span></td>
+                                    <td class="day"><span class="number">6</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">7</span></td>
+                                    <td class="day"><span class="number">8</span></td>
+                                    <td class="day"><span class="number">9</span></td>
+                                    <td class="day"><span class="number">10</span></td>
+                                    <td class="day"><span class="number">11</span></td>
+                                    <td class="day"><span class="number">12</span></td>
+                                    <td class="day"><span class="number">13</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">14</span></td>
+                                    <td class="day"><span class="number">15</span></td>
+                                    <td class="day"><span class="number">16</span></td>
+                                    <td class="day"><span class="number">17</span></td>
+                                    <td class="day"><span class="number">18</span></td>
+                                    <td class="day"><span class="number">19</span></td>
+                                    <td class="day"><span class="number">20</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">21</span></td>
+                                    <td class="day"><span class="number">22</span></td>
+                                    <td class="day"><span class="number">23</span></td>
+                                    <td class="day"><span class="number">24</span></td>
+                                    <td class="day"><span class="number">25</span></td>
+                                    <td class="day"><span class="number">26</span></td>
+                                    <td class="day"><span class="number">27</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="day"><span class="number">28</span></td>
+                                    <td class="day"><span class="number">29</span></td>
+                                    <td class="day"><span class="number">30</span></td>
+                                    <td class="day nao-dia"><span class="number">1</span></td>
+                                    <td class="day nao-dia"><span class="number">2</span></td>
+                                    <td class="day nao-dia"><span class="number">3</span></td>
+                                    <td class="day nao-dia"><span class="number">4</span></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div><!--Fim calendario maior-->
+                </div>
+            </div><!-- Bloco col-4 -->
+            <div class="segura-section2 card-ag-ca col-md-4 col-sm-12">
+                <!-- Lista agendar lateral -->
+                <div class="card-ag-ca col-md-12 col-sm-12">
+                    <div class="row agendar-servico">
+                        <div class="col-md-12 bg-primary-color" id="cabecalho-agendar-servico">
+                            <div class="row">
+                                <div class="col-sm-12 servico-agendado">
+                                    <h5 class="alinhaTexto4">Agendar serviço</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <h6 class="alinhaTexto3">Mês atual</h6>
+                            <ul class="servico-listado" id="mes-atual">
+                                <li>
+                                    <div class="agendado-detalhe">
+                                        <p id="servico-nome">Alisamento de cabelo</p>
+                                        <p id="servico-data-hora">07/07/2020 - 08:30</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="agendado-detalhe">
+                                        <p id="servico-nome">Corte de cabelo</p>
+                                        <p id="servico-data-hora">07/07/2020 - 08:30</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="agendado-detalhe">
+                                        <p id="servico-nome">Hidratação de cabelo</p>
+                                        <p id="servico-data-hora">07/07/2020 - 08:30</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-12">
+                            <h6 class="alinhaTexto3">Mês seguinte</h6>
+                            <ul class="servico-listado" id="mes-atual">
+                                <li>
+                                    <div class="agendado-detalhe">
+                                        <p id="servico-nome">Alisamento de cabelo</p>
+                                        <p id="servico-data-hora">07/07/2020 - 08:30</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="agendado-detalhe">
+                                        <p id="servico-nome">Corte de cabelo</p>
+                                        <p id="servico-data-hora">07/07/2020 - 08:30</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="agendado-detalhe">
+                                        <p id="servico-nome">Hidratação de cabelo</p>
+                                        <p id="servico-data-hora">07/07/2020 - 08:30</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div><!-- Fim Main -->
+
+    <!-- Scripts para Bootstrap 4-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- Jquary e script para scroll nav suave-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/my-scroll.js"></script>
+    <script src="js/nav-color.js"></script>
+    <script src="js/side-menu.js"></script>
+
+
+
+    <!-- Fim de pagina -->
+</body>
+
+</html>

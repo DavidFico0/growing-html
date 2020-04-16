@@ -962,6 +962,137 @@ i {
  
  /* Fim perfil usuarios */
 
+ /*Comeco calendario e Agenda - Mike -*/
+
+.alternar-pagina {
+    text-align: right;
+}
+
+.alinhaTexto3 {
+    font-weight: normal;
+    color: #383737;
+}
+
+.alinhaTexto4 {
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.alinhar-lateral{
+    align-self: stretch;
+}
+
+.ano-titulo {
+    text-align: right;
+    color: grey;
+}
+
+.agendar-servico {
+    width: 25vw;
+    height: 60px;
+    background-color: #FFFFFF;
+}
+
+.agendar-servico li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.agendar-servico li:before {
+    content: '•';
+    display: inline-block;
+    position: absolute;
+    left: -1em;
+    color: #9f6f78;
+    /* cor da bolinha */
+}
+
+.agendado-detalhe {
+    margin-top: 0px;
+}
+
+.card-ag-ca {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.servico-listado {
+    color: #383737;
+    align-content: center;
+}
+
+.segura-section {
+    margin-top: 70px;
+}
+
+.segura-section2 {
+    margin-top: 70px;
+}
+
+/*teste tabela ini - Mike*/
+table {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'gothan';
+    border-spacing: 0;
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+}
+
+th {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 1);
+    background-color: white;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+td {
+    width: 14.285%;
+    transition: all 0.3s;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 14px;
+    padding: 1.5% 1.5% 5%;
+    vertical-align: initial;
+    padding: 1.5% 0;
+    height: 50px;
+    text-align: center;
+}
+
+.day:hover {
+    background-color: #9f6f78;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.nao-dia {
+    color: #383737;
+}
+
+.today {
+    color: #FFF;
+    background-color: #9f6f78 !important;
+    opacity: 0.8;
+}
+
+span.number {
+    margin-left: 10%
+}
+
+/*teste tabela fim*/
+/*Fim calendario*/
+
 /* Navegadores menores */
 
 @media (max-width: 1440px){
@@ -1716,6 +1847,17 @@ i {
 /* Amanda - Perfil Usuarios 1000px */
 .logoA img {
     width: 5vw;
+}
+
+/* Mike - Calendario e Agenda*/
+
+.alinhaTexto3,
+.alinhaTexto4{
+    font-size: 18px;
+}
+
+.alinhaTexto3 h6{
+    font-size: 16px;
 }
     
 }
@@ -2494,6 +2636,11 @@ i {
         background-repeat: no-repeat;
     }
     
+    /* Mike - Agenda e calendario*/
+    .segura-section2 {
+        margin-top: 0px;
+    }
+
     }
 
     @media (max-width: 350px){
