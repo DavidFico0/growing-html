@@ -170,56 +170,90 @@
                 </div>
                 <!-- Bloco descontos -->
                 <div class="col-md-12">
-                    <div class="col-md-12 row item-agenda">
+                    <div class="col-md-12 row bloco-d-frete">
                         <div class="col-md-6 row desconto-frete">
                             <div class="desconto-frete-titulo">
-                                <p>Cupom de desconto</p>
+                                <p>Cupom de desconto: </p>
                             </div>
                             <div class="desconto-frete-input">
                                 <input type="text" class="cupom" maxlength="15" size="15">
-                                <button>Aplicar</button>
+                                <button class="botao-desconto-frete">Aplicar</button>
                             </div>
                         </div>
                         <div class="col-md-6 row desconto-frete">
-                            <p>Calculo de frete</p>
+                            <div class="desconto-frete-titulo">
+                                <p>Calculo de frete: </p>
+                            </div>
+                            <div class="desconto-frete-input">
                             <input type="text" class="CEP" placeholder="00000000" maxlength="8" size="10">
-                            <button>Aplicar</button>
+                            <button class="botao-desconto-frete">Aplicar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Endereço -->
+                <div class="col-md-12">
+                    <div>
+                        <h6>Endereço de entrega</h6>
+                    </div>
+                    <div class="col-md-12 row bloco-endereco">
+                        <div class="col-md-9">
+                            <input type="text" name="logradouro" id="" placeholder="Logradouro..." size="70" maxlength="">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="numero" id="" placeholder="Nº" size="15" maxlength="">
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" name="bairro" id="" placeholder="Bairro..." size="70" maxlength="">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="cep" id="" placeholder="CEP..." size="15" maxlength="8">
+                        </div>
+                        <div class="col-md-9">
+                            <input type="text" name="cidade" id="" placeholder="Cidade..." size="70" maxlength="">
+                        </div>
+                        <div class="col-md-3">
+                            <input type="text" name="uf" id="" placeholder="UF..." size="15" maxlength="2">
+                        </div>
+                        <div class="col-md-12">
+                            <input type="text" name="complemento" id="" placeholder="Complemento..." size="70" maxlength="140">
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Bloco col-3 -->
             <div class="segura-section3 card-ag-ca col-md-3 col-sm-12">
+                <br>
                 <!-- Lista agendar lateral -->
                 <div class="row agendar-servico">
                     <!-- Bloco total -->
                     <div class="col-md-11 alinhar-lateral">
                         <!-- Card total-->
-                        <div class="col-md-12 calendario-corpo" style="background-color: lightgray">
+                        <div class="col-md-12 calendario-corpo">
                             <div class="row">
                                 <div class="col-md-4 compra-titulo">
                                     <p>sub total</p>
                                     <p>desconto</p>
                                     <p>valor frete</p>
                                 </div>
-                                <div class="col-md-8 compra-valor">
-                                    <p class="valor-destaque">R$ 1.802,40</p>
+                                <div class="col-md-6 compra-valor">
+                                    <p class="text-color-primary">R$ 1.802,40</p>
                                     <p>R$ 0,00</p>
                                     <p>R$ 0,00</p>
                                 </div>
                             </div>
                             <hr>
                             <div class="row">
-                                <div class="col-md-2 compra-titulo">
+                                <div class="col-md-3 compra-titulo">
                                     <p>total</p>
                                 </div>
-                                <div class="col-md-8 compra-valor">
-                                    <p class="valor-destaque">R$ 1.802,40</p>
+                                <div class="col-md-7 compra-valor">
+                                    <p class="valor-destaque text-color-primary">R$ 1.802,40</p>
                                 </div>
                             </div>
-                            <button type="submit" class="botao">Finalizar compra</button>
+                            <button type="submit" class="botao-carrinho col-md-12">Finalizar compra</button>
                         </div>
-                        <!--Fim calendario maior-->
+                        <!--Fim card total-->
                     </div>
                 </div>
             </div><!-- Fim col-3 -->

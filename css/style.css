@@ -1014,36 +1014,17 @@ a:active {
 }
 
 .agendar-servico {
-    width: 25vw;
-    height: 60px;
-}
-
-.agendar-servico li {
-    list-style-type: none;
-    position: relative;
-    margin-bottom: 0.5em;
-}
-
-.agendar-servico li:before {
-    content: '•';
-    display: inline-block;
-    position: absolute;
-    left: -1em;
-    color: #9f6f78;
-    /* cor da bolinha */
+    max-width: 100%;
+    height: 40px;
 }
 
 .agendado-detalhe {
     margin-top: 0px;
 }
 
-.card-ag-ca {
-    border-color: transparent;
-    background-color: transparent;
-}
-
-.calendario-corpo{
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+.calendario-corpo {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
 }
 
 .agendaPic img {
@@ -1056,7 +1037,7 @@ a:active {
     font-size: 12px;
     color: #383737;
     background-color: white;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .item-agenda:hover {
@@ -1064,9 +1045,10 @@ a:active {
     font-weight: bold;
 }
 
-.separa-item{
+.separa-item {
     margin: 1vh 0vh;
 }
+
 .servico-listado {
     color: #383737;
     align-content: center;
@@ -1078,9 +1060,25 @@ a:active {
 
 .segura-section2 {
     margin-top: 70px;
+    background-color: #fff;
 }
 
-.titulo-destaque{
+.segura-section2 li {
+    list-style-type: none;
+    position: relative;
+    margin-bottom: 0.5em;
+}
+
+.segura-section2 li:before {
+    content: '•';
+    display: inline-block;
+    position: absolute;
+    left: -1em;
+    color: #9f6f78;
+    /* cor da bolinha */
+}
+
+.titulo-destaque {
     text-decoration: underline #9F6F78;
 }
 
@@ -1145,40 +1143,85 @@ span.number {
 }
 
 /* Mike - Carrinho de compras*/
-.card-carrinho-cabecalho{
+.botao-carrinho {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #9f6f78;
+    border: solid 2px #9F6F78;
+    /*display: inline-flex;*/
+    height: 5vh;
+    margin-bottom: 1vh;
+}
+
+.botao-desconto-frete {
+    font-size: 12px;
+    color: #FFFFFF;
+    background-color: #9f6f78;
+    border: solid 2px #9F6F78;
+    align-content: space-between;
+    height: 4vh;
+    margin-bottom: 1vh;
+}
+
+.bloco-d-frete {
+    background-color: #fff;
+    margin: 5vh auto;
+    height: 6vh;
+    align-content: space-around;
+}
+
+.bloco-endereco {
+    font-size: 12px;
+    background-color: #fff;
+    color: lightgray;
+    padding: 1vh;
+}
+
+.bloco-endereco input {
+    height: 4vh;
+    color: grey;
+    font-weight: normal;
+}
+
+.card-carrinho-cabecalho {
     margin: 8vh 0vh 0vh 0vh;
 }
 
-.compra-titulo{
-    font-size: 8px;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
-}
-
-.compra-valor{
+.compra-titulo {
     font-size: 12px;
+    padding: 10px 0 0 0;
+    margin: 0 0 0 1vw;
+    align-content: space-around;
+}
+
+.compra-valor {
+    font-size: 16px;
     padding: 0 0 0 0;
-    margin: 0 0 0 0;
-    justify-content: flex-end;
+    margin: 0 0 0 1vw;
+    text-align: end;
 }
 
-.valor-destaque{
-    color: #9f6f78;
+.valor-destaque {
+    font-size: 20px;
 }
 
-.desconto-frete{
-    font-size: 12px;
+.desconto-frete {
+    font-size: 14px;
     color: #383737;
-    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.desconto-frete-input {
-    justify-content: flex-end;
+.desconto-frete-titulo {
+    align-items: center;
+    margin-top: 2vh;
 }
 
-.desconto-frete-input input,
-button{
+.desconto-frete-input,
+input {
     height: 20px;
+    margin-bottom: 1vh;
 }
 
 .segura-section3 {
@@ -1186,25 +1229,21 @@ button{
     padding: 0;
 }
 
-.separa-item-carrinho{
+.separa-item-carrinho {
     margin: 1vh 0vh;
     padding: 0%;
 }
 
-.separa-item-carrinho input{
+.separa-item-carrinho input {
     columns: '2';
 }
 
 /*Barra progresso*/
-.container-progresso{
+.container-progresso {
     width: 100%;
 }
 
-.barra-progresso{
-    /*counter-reset: passo;*/
-}
-
-.barra-progresso li{
+.barra-progresso li {
     list-style-type: none;
     float: left;
     width: 33.33%;
@@ -1215,18 +1254,21 @@ button{
 }
 
 .barra-progresso li:before {
-    content: '';/**/
+    content: '';
+    /**/
     /*content: counter(passo);
     counter-increment: passo;*/
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border: 3px solid #9F6F78 /*#4D3539*/;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border: 1px solid #9F6F78
+        /*#4D3539*/
+    ;
     display: block;
     text-align: center;
     margin: 0 auto 10px auto;
     border-radius: 50%;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
 }
 
 .barra-progresso li:after {
@@ -1234,8 +1276,10 @@ button{
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: #9F6F78 /*#4D3539*/;
-    top: 10px;
+    background-color: #9F6F78
+        /*#4D3539*/
+    ;
+    top: 7px;
     left: -50%;
     z-index: -1;
 }
@@ -1245,15 +1289,19 @@ button{
 }
 
 .barra-progresso li.ativo {
-    color: #4D3539 /*#9F6F78*/;
+    color: #4D3539
+        /*#9F6F78*/
+    ;
 }
 
 .barra-progresso li.ativo:before {
-    border-color: #4D3539 /*#9F6F78*/;
+    border-color: #4D3539
+        /*#9F6F78*/
+    ;
     background-color: #9F6F78;
 }
 
-.barra-progresso li.ativo + li:after {
+.barra-progresso li.ativo+li:after {
     background-color: #4D3539;
 }
 
