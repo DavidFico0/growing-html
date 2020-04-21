@@ -42,12 +42,22 @@ nav a:hover {
 }
 
 .bg-tranparent-nav #link-logo {
-    width: 4vw;
+    width: 2vw;
     height: 7vh;
-    background-image: url('../image/logo-primary.png');
-    background-repeat: no-repeat;
-    background-size: 5vh;
 }
+
+.bg-tranparent-nav #link-logo img {
+    height: 6vh;
+}
+
+.custom-toggler.navbar-toggler { 
+    border-color: #888888; 
+} 
+  
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(179, 174, 175, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+} 
 
 .bg-tranparent-nav.scrolled {
     background-color: #9F6F78 !important;
