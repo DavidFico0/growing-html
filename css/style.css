@@ -16,6 +16,15 @@ h3 {
     font-family: 'Gotham Medium';
 }
 
+.btn-primary-border{
+    background-color: transparent;
+    border: #9f6f78 solid 2px;
+    color: #9f6f78;
+    width: 170px;
+    height: 35px;
+}
+
+
 main {
     height: 100vh;
 }
@@ -811,24 +820,30 @@ i {
 
 /* David - Pagina detalhes do Produto */
 
-.card-produto{
+.col-produto{
     margin-top: 90px;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     width: 800px;
-    height: 300px;
+}
+
+.card-produto{
+    width: 780px;
+    height: 400px;
     background-color: #FFFFFF;
 }
+
 
 .card-produto p{
     text-align: justify;
 }
 
 .conteudo-produtos{
-    padding: 10px;
+    padding: 5px;
 }
 
 .imgs-produto {
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -839,13 +854,13 @@ i {
 .card-produto h1{
     font-family: Gotham;
     font-weight: bold;
-    font-size: 24pt;
+    font-size: 20pt;
 }
 
 .preco-produto{
     font-family: Gotham;
     font-weight: bold;
-    font-size: 23pt;
+    font-size: 18pt;
 }
 
 .ref-produto{
@@ -860,7 +875,7 @@ i {
 
 #cabecalho-feed-cliente h2{
     color: #FFFFFF;
-    font-size: 20pt;
+    font-size: 12pt;
 }
 
 /* Seção Home */
