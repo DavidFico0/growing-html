@@ -515,8 +515,12 @@ i {
 
 .search-header input {
     border: none;
-    width: 430px;
-    margin-left: 3px;
+    width: 90%;
+    margin: 2px;
+}
+
+.searching:focus {
+    outline-style:none ;
 }
 
 #icon-search {
