@@ -653,6 +653,10 @@ i {
     margin-bottom: 5px;
 }
 
+.publicacao img{
+    width: 750px;
+}
+
 .publicacao-row {
     padding: 10px;
 }
@@ -1615,6 +1619,11 @@ input {
         width: 800px;
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    
+    .publicacao img{
+        width: 600px;
     }
 
     .publicacao-row {
