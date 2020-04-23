@@ -5,6 +5,21 @@ body{
 p,
 a {
     font-family: 'Gotham', 'Arial Narrow', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: #9f6f78;
+}
+
+/* Link de navegação com estilo do projeo */
+.link-primary{
+    text-decoration: none;
+    color: black;
+}
+.link-primary:hover{
+    text-decoration: none;
+    color: #9f6f78;
 }
 
 h1,
@@ -24,10 +39,24 @@ h3 {
     height: 35px;
 }
 
-
 main {
     height: 100vh;
 }
+
+/* David - Perfil do usuário por */
+.perfil-usuario{
+    width: 179px;
+    height: 179px;
+    border-radius: 100%;
+    border: solid 4px #FFFFFF;
+}
+
+.perfil-usuario img{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+
 
 /* LANDING PAGE */
 
@@ -1393,6 +1422,108 @@ input {
 }
 
 /* Fim - Carrinho de compras*/
+
+
+/* David - serviço executado */
+#header-servicos{
+    background-image: url('../image/servicos/mascara-de-hidratacao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    border: solid 3px #FFFFFF;
+    width: 90%;
+    height: 309px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titulo-servico{
+    margin-top: 50px;
+    background-color: hsla(0, 0%, 100%, 0.80);
+    width: 582px;
+    height: 82px;
+}
+
+#titulo-servico h1{
+    text-align: right;
+    font-size: 20pt;
+    margin-right: 5px;
+}
+
+
+#titulo-servico p{
+    text-align: right;
+    font-size: 20pt;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.perfil-servico{
+    position: relative;
+    top: -100px;
+    left: 7%;
+}
+
+.span-username{
+    font-family: Gotham;
+    font-size: 20pt;
+    position: relative;
+    top: -10px;
+    left: 7%;
+}
+
+.span-profissao{
+    font-family: Gotham;
+    font-size: 15pt;
+    position: relative;
+    top: 20px;
+    left: -19%;
+}
+
+.div-status{
+    position: fixed;
+    position: relative;
+    top: -7px;
+    right: -19%;
+}
+
+.corpo-servico{
+    /* margin-top: 5px; */
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.img-principal{
+    width: 290px;
+    height: 290px;
+}
+
+.img-secundaria{
+    width: 140px;
+    height: 140px;
+}
+
+.div-descrservico{
+    background-color: #FFFFFF;
+    width: 439px;
+    height: 385px;
+}
+
+.div-descrservico div{
+    padding: 10px;
+}
+
+.div-descrservico div p{
+    text-align: justify;
+}
+
+
+/* David - fim servico executado */
+
+
 
 /* Navegadores menores */
 

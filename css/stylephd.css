@@ -2,6 +2,18 @@
     display:flex;
 }
 
+
+/* Link de navegação com estilo do projeo */
+.link-primary{
+    text-decoration: none;
+    color: black;
+}
+.link-primary:hover{
+    text-decoration: none;
+    color: #9f6f78;
+}
+
+
 .barraslaterais{
      /* position: fixed;  */
     /* width: 20vw; */
